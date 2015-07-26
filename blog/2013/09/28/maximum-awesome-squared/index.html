@@ -1,0 +1,145 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta charset="utf-8">
+	<title>(maximum-awesome)^2 | My Octopress Blog</title>
+
+	<meta name="author" content="Your Name">
+	
+	<meta name="description" content="My Octopress Blog 28 Sep 2013 (Maximum-awesome)^2 In the quest for the perfect conf In my previous post, I wrote about my experience switching to &hellip;">
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400" />
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/.min.css" />
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+
+<body class="post-template">
+  <main class="content" role="main"><article class="post">
+  
+	<header class="post-header">
+		<a id="blog-logo" href="/">My Octopress Blog</a>
+	</header>
+	<span class="post-meta">28 Sep 2013</span>
+	<h1 class="post-title">(Maximum-awesome)^2</h1>
+
+	<section class="post-content">
+		<h2>In the quest for the perfect conf</h2>
+
+<p>In my previous post, I wrote about my experience <a href="/posts/how-to-vim/">switching to Vim</a>. After getting familiar with using Vim, I started to search on ways to improve my workflow. At the time, I was using Janus build and I have to say, I didn&rsquo;t enjoy it too much. So I had two choices; the first was to start off and build my own Vim configuration from the ground up and the second was to find a &ldquo;pret-a-porter&rdquo; solution. I chose the latter and head to Github to start the quest of finding the perfect Vim configuration. I had already excluded Janus because way too complicated to mess around with and it&rsquo;s pretty heavy as well. Then, I remembered about <a href="https://github.com/fatih/subvim/">Subvim</a> which is a great effort to emulate Sublime Text 2 in a Vim environment. That didn&rsquo;t suit me as well, found it to be heavy and just not my taste.</p>
+
+<h2>The Holy Grail</h2>
+
+<p>And then I remembered about <a href="https://github.com/square/maximum-awesome">maximum awesome</a>, made with love by Square and decided to install it right away to test it out. And boy, it is good! First of all, the installation process is simple, painless and quick. I fired up my MacVim and tried it out. My first impression was that it felt agile, looked beautiful but lacked some functionality that I&rsquo;ve been used from my previous configurations.</p>
+
+<p>Almost right away, I decided to fork it and made my changes available for all and also, have them backed up in Github (just in case).</p>
+
+<h2>A minimal Vim configuration</h2>
+
+<p>And that&rsquo;s how <a href="https://github.com/tsironis/maximum-awesome-squared">(maximum-awesome)<sup>2</sup></a> was born, humbly named after his great ancestor!</p>
+
+<p>Right away, I had some issues with the status line, so initially I went with Powerline and minibufexplorer, but after a while I switched to the vim-airline which does both things (and which I love). Also, around that time I started using Jellybeans colorscheme. Made some other changes in the vimrc and I was pretty happy with my setup.</p>
+
+<p><img src="http://i.imgur.com/GUUm9q0.gif" alt="Maximum Awesome Squared animation" /></p>
+
+<h2>Ubuntu support?</h2>
+
+<p>Ok, maximum awesome is built for Mac OS X, but I didn&rsquo;t see any valid reasons why it couldn&rsquo;t play on Ubuntu as well. And also, I really, really needed my config in my Ubuntu desktop as well. So, I made the decision to hack the original Rakefile in order to made it work nicely with Ubuntu. Although I&rsquo;m not that happy with the quality of the new version, I made it work. Maybe some time in the future I&rsquo;ll do some optimisation.</p>
+
+<h2>Customize it!</h2>
+
+<p>The great advantage with the maximum-awesome is that you can easily hack it, change it, make it unique. I was familiar with the code in about thirty minutes or so. If you want to change the plugins, just edit the <code>.gitmodules</code> file and run <code>rake</code>. Make your personal changes (changes that will only be interesting to you, that is) in the <code>vimrc.local</code> file. The script will download the new plugins and everything else should be taken care of by Pathogen.</p>
+
+<h2>Future plans</h2>
+
+<h3>Full Ubuntu/Debian support</h3>
+
+<p>There are some things that are very sloppy about the rakefile, I plan on making some optimizations and also, finding a way to offer greater support for Ubuntu/Debian systems but also, other Linux distros as well.</p>
+
+<h3>Better installation experience in both platforms</h3>
+
+<p>Currently, the implementation of the installation plugin is not that elegant and I want to encourage the customization and make it as easy and seamless as possible.</p>
+
+<h3>Better handling of Git submodules (plugins)</h3>
+
+<p>The downloaded plugins in the <code>vim/bundle</code> folder shouldn&rsquo;t be added in the repo, instead they should be just local copies and everything should be handled through the <code>.gitmodules</code> file. I plan on improving that.</p>
+
+<h3>Improve Vim performance</h3>
+
+<p>Sometimes, MacVim and Vim feels heavy, especially after some hours of usage. I plan on making make it faster and less heavyweight (or at least, investigate why)</p>
+
+<h2>Conclusion</h2>
+
+<p><a href="https://github.com/tsironis/maximum-awesome-squared">(maximum-awesome)<sup>2</sup></a> is just my take on the original project. If you like it, fork it and let&rsquo;s make it better!</p>
+
+<p><a href="https://news.ycombinator.com/item?id=6462427">Join the discussion on HackerNews</a></p>
+
+	</section>
+
+  <footer class="post-footer">
+  <section class="author">
+    <h4>Your Name</h4>
+    <p></p>
+  </section>
+  <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?text=(maximum-awesome)^2&amp;url=http:///blog/2013/09/28/maximum-awesome-squared/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http:///blog/2013/09/28/maximum-awesome-squared/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http:///blog/2013/09/28/maximum-awesome-squared/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+    </a>
+  </section>
+</footer>
+  <hr>
+  
+    <div class="share">
+</div>
+
+  
+  
+</article></main>
+  <footer class="site-footer"><a class="subscribe icon-feed" href="http:///atom.xml"><span class="tooltip">Subscribe!</span></a>
+
+
+<div class="inner">
+
+
+
+
+
+
+
+
+
+<section class="copyright">All content copyright <a href="/">Your Name</a> © 2015 • All rights reserved.</section>
+
+<section class="poweredby">Casper theme by <a class="icon-ghost" href="http://tryghost.org">Ghost</a> &amp; Published with <a href="http://octopress.org">Octopress</a></section>
+
+</div>
+</footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+
+
+
+
+
+</body>
+</html>

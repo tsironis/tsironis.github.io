@@ -69,6 +69,62 @@
     <lastmod>2014-12-23T02:04:23+02:00</lastmod>
   </url>
   <url>
+    <loc>http:///blog/2014/01/19/lockr-released/</loc>
+    <lastmod>2014-01-19T00:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2013/11/24/awesomejs/</loc>
+    <lastmod>2013-11-24T00:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2013/11/16/kindle-paperwhite/</loc>
+    <lastmod>2013-11-16T00:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2013/09/28/maximum-awesome-squared/</loc>
+    <lastmod>2013-09-28T00:00:00+03:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2013/09/22/how-to-vim/</loc>
+    <lastmod>2013-09-22T00:00:00+03:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2013/08/17/hg-perfect-setup/</loc>
+    <lastmod>2013-08-17T00:00:00+03:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2013/05/17/why-open-source-really-matters/</loc>
+    <lastmod>2013-05-17T00:00:00+03:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2013/04/17/making-engaging-presentations/</loc>
+    <lastmod>2013-04-17T00:00:00+03:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2013/03/24/our-education-competent/</loc>
+    <lastmod>2013-03-24T00:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2013/03/20/hardcore-forking-action/</loc>
+    <lastmod>2013-03-20T00:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2013/03/16/an-unusual-windows-laptop/</loc>
+    <lastmod>2013-03-16T00:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2012/11/06/a-month-with-mac/</loc>
+    <lastmod>2012-11-06T00:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2012/11/02/geembot-is-cool/</loc>
+    <lastmod>2012-11-02T00:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http:///blog/2012/10/30/about-this-weblog/</loc>
+    <lastmod>2012-10-30T00:00:00+02:00</lastmod>
+  </url>
+  <url>
     <loc>http:///blog/archives/</loc>
   </url>
   <url>
@@ -82,5 +138,14 @@
   </url>
   <url>
     <loc>http:///blog/categories/sample/</loc>
+  </url>
+  <url>
+    <loc>http:///posts/2/</loc>
+  </url>
+  <url>
+    <loc>http:///posts/3/</loc>
+  </url>
+  <url>
+    <loc>http:///posts/4/</loc>
   </url>
 </urlset>
