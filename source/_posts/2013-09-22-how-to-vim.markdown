@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Vim: from n00b to meh"
+---
+
+I grew up in a fairly technical family; my parents have both programming background. Heck! my mother programs in ```vi``` until this day and I was always aware of this obscure thing, called Vim. But three years ago, when I decided it was time to move from the (then popular) Notepad++, I came across Sublime Text 2. At the time, it was still in beta version, but it was apparent to me that it was a completely different experience than the old Notepad++. The vast choice of plugins, the dark theme, the performance of the whole application was a no-brainer for me. I fell in love with it at first sight, I adopted it as my default editor and it served me well for almost three years across Windows, Linux & Mac.
+
+A few months ago, I joined [BugSense](http://www.bugsense.com/) as a front-end engineer. Most guys at BugSense use Sublime Text, so I was right at home. But there is a guy ([@alexkompotis](http://twitter.com/alexkompotis)) who is using MacVim. I was immediately intrigued by it and quite interested to see his workflow. The main question that came in my mind, it was how the heck did he manage to work everyday in that obscure, mystical and old fashioned editor. Sublime Text 2 is, I thought at the time, far more superior in terms of usability.
+
+It was then that I decided to give it a try. Of course, I had already open vim in my terminal but avoided it in a regular basis. This time I was really psyched about it; I borrowed @alexkompotis's custom configuration and fired up my engines. But, I failed big time. The truth is that at this point I had a very beefed up Sublime Text configuration. I rushed my workflow change and I wasn't patient enough to laern Vim.
+
+### The Vim philoshopy
+
+Then I came across this awesome game, [Vim Adventures](http://vim-adventures.com/) that sets to teach you the Vim philosophy while having fun. It was a good experience but I did get bored after some days. I learned so much about Vim while playing and I was already "getting" the Vim way of thinking. After that, I read the classic book Practical Vim, which expanded my knowledge at how Vim is working. It turned out that all this time, I was forcing myself in the opposite direction than Vim dictates; Vim's normal mode is in fact a command mode (duh!) and the insert mode is, well, for inserting text. The self-evidence of the previous statement is actually the whole point of Vim philosophy.
+
+### Take it easy, continue your work, learn in the process
+
+Then one day, I decided to make the switch to Vim. I have tried for a week or so the command mode of Sublime Text and I found it very limiting and unusable in general. I chose the [Janus build](https://github.com/carlhuda/janus) to get started with and read this [very helpful article](http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) which in a nutshell says "take it easy and you'll get there". Start with soft settings, enable mouse, enable arrow navigation and try a configuration that doesn't alienate you. Then gradually, learn new tricks and adopt your workflow over time.
+
+Finally, I made it! It's been more than two months now and I never looked back. I haven't opened Sublime Text since the first week of my switch and I'm getting progressively better. Now, I'm using an opinionated version of Square's maximum-awesome project that I called it [maximum-awesome-squared](https://github.com/tsironis/maximum-awesome-squared) for obvious reasons :)
+
+But more of that in my next post.
+
+[Join the discussion on HackerNews](https://news.ycombinator.com/item?id=6425024)
