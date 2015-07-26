@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http:///atom.xml" rel="self"/>
   <link href="http:///"/>
-  <updated>2015-07-26T16:53:03+03:00</updated>
+  <updated>2015-07-26T17:07:57+03:00</updated>
   <id>http:///</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -37,7 +37,7 @@
     <link href="http:///blog/2013/11/24/awesomejs/"/>
     <updated>2013-11-24T00:00:00+02:00</updated>
     <id>http:///blog/2013/11/24/awesomejs</id>
-    <content type="html"><![CDATA[<h2>The first handshake</h2>
+    <content type="html"><![CDATA[<h4>The first handshake</h4>
 
 <p>When I started learning the building elements of the Web, I had the impression that Javascript is that hefty, untamable
 beast that nobody really understands, a language so wicked that noone really
@@ -48,7 +48,7 @@ originates mainly on some crappy browser and DOM APIs, bad implementations of sp
 and the general ambiguity that reigns in the Browser Vendors Land. Yes, it is a
 stil very immature language but that doesn&rsquo;t mean it&rsquo;s not powerful enough.</p>
 
-<h2>Getting more intimate</h2>
+<h4>Getting more intimate</h4>
 
 <p>For people that aren&rsquo;t very familiar with it, writing Javascript is just a matter of registering some jQuery events which control animations. Writing webapps in Javascript puts you in a completely different state in which you <strong>need</strong> to write modular, maintanable and testable code. You have to organize your code efficiently in order to avoid having a &ldquo;spaghetti code&rdquo; codebase.</p>
 
@@ -60,7 +60,7 @@ I had a basic code structure already layed out, I was kinda freaked out.</p>
 <p>It turns out that taking key decisions about my project on my own is one of the best things that I
 learned while writing Javascript.</p>
 
-<h2>Javascript is flexible</h2>
+<h4>Javascript is flexible</h4>
 
 <p>One of the wow moments I had with Javascript, was the ability to easily do
 evaluations, one-liners (almost LISPy things) without having to bleed through
@@ -71,12 +71,12 @@ my ears. Events, closures, functional js, being able to do this&hellip;</p>
 
 <p>&hellip;made me fall in love with it after a while.</p>
 
-<h2>Building a decent workflow</h2>
+<h4>Building a decent workflow</h4>
 
 <p>I think this point is true for every language. You should try moving things out
 of your way, optimizing your everyday work, organizing your project&rsquo;s structure as well as possible and having repetitive tasks done automatically. It should be just you and the language, nothing more. Especially for Javascript you should try having multiple files and concatenating or minifying them with Grunt.</p>
 
-<h2>Getting serious</h2>
+<h4>Getting serious</h4>
 
 <p>If you&rsquo;re in a state that you want to take it to the next level, then I think you should try strict mode. Just put <code>use 'strict';</code> at the top of your js files. This have
 will help you write more consistent code across implementations and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode">other
@@ -97,31 +97,31 @@ things</a>.</p>
     <id>http:///blog/2013/11/16/kindle-paperwhite</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been using Kindles for almost two years. My first Kindle was a 4th generation Kindle (not the touch one). Since then, ebooks for me was just a thing from a science fiction articles, just like flying cars. It was technically plausible but couldn&rsquo;t see it replacing paper books anytime soon. News flash, I was wrong. So when the new Kindle Paperwhite came out a few months ago, I decided to upgrade my Kindle to a new Kindle Paperwhite. I did long the touchscreen which makes everything so much easier and I ordered it from Amazon.</p>
 
-<h2>First things first</h2>
+<h4>First things first</h4>
 
 <p>It&rsquo;s been two months since it arrived. It is always surprising to see how minimal the packaging that Amazon chose for Kindle is. One thing that I noticed is that they didn&rsquo;t include a USB adapter, just the cable. I wasn&rsquo;t bummed because I never really used the USB adapter with my old Kindle. I boot it for the first time, logged in with my Amazon account and boom, everything was there.</p>
 
-<h2>Screen got a lot better</h2>
+<h4>Screen got a lot better</h4>
 
 <p>I contemplated that the great success of Kindle was the lack of illuminated screen. The look and feel of physical paper of my old Kindle was quite useful for well lit rooms, but it still had some glowing issues, especially when you read books on your bed with a single source of light. Kindle Paperwhite has a very dimable front-lit screen which is actually is perfect for every situation. You can read in a dark room without having your eyes being tortured, you can read on sunlight or in metro without any difficulty at all.</p>
 
 <p>Screen resolution have increaded as well. With the previous Kindle I found myself prefering a larger font because resolution it wasn&rsquo;t that great. The Paperwhite is a huge improvement. Make no mistake though. It&rsquo;s not totally perfect but it doesn&rsquo;t get in your way which is good.</p>
 
-<h2>Better hardware &amp; software</h2>
+<h4>Better hardware &amp; software</h4>
 
 <p>It&rsquo;s time for some geekiness! A faster processor which actually means it can render better images and you read comics better now. Also, it has an updated software which is nice, books appear with thumbnails if you want to and it offers a better Kindle Store experience as well.</p>
 
 <p>Another feature that I use really often is &ldquo;Send to Kindle&rdquo;. There are some plugins for Firefox and Chrome that can format an web article in a small ebook and ship it over to your Kindle. It&rsquo;s almost a one-click process and then the article gets synced in your Kindle.</p>
 
-<h2>Battery</h2>
+<h4>Battery</h4>
 
 <p>There is only one way to describe the battery life of Kindles. It is simple one of the most power efficient devices ever built. A nice change from modern electronic devices for sure. I charged it only once since I got it (no joke) and I have still more than 60% battery in my charge (I&rsquo;m using it every day since I got it). It is the kind of device that you&rsquo;re taking with half-charged battery over a long trip and you don&rsquo;t really notice. It&rsquo;s the device you should take on an enlighting 2-month trip to India without worrying about your battery life. It&rsquo;s the opposite of modern smartphones.</p>
 
-<h2>Reading programming books</h2>
+<h4>Reading programming books</h4>
 
 <p>As a result of increasing resolution, font rendering got a lot better. Reading programming books is very fluent although I still prefer having a printed book for this kind of subjects. It&rsquo;s easier to go back and forth, take notes etc. So yeah, although Kindle ebooks for programming are totally readable, it&rsquo;s not my favorite way of reading programming books. But some the Kindle editions of these books are a lot cheaper (also you don&rsquo;t pay the shipping fees).</p>
 
-<h2>Overall</h2>
+<h4>Overall</h4>
 
 <p>The best thing about Paperwhite is that it made me read a whole lot more. I read every day while commuting to work or relaxing at home. I throw it in my backpack and I&rsquo;m ready to go and I don&rsquo;t need to worry about recharging or updating content that often. Hell! I use it more than my smartphone in an everyday basis.</p>
 
@@ -140,17 +140,17 @@ things</a>.</p>
     <link href="http:///blog/2013/09/28/maximum-awesome-squared/"/>
     <updated>2013-09-28T00:00:00+03:00</updated>
     <id>http:///blog/2013/09/28/maximum-awesome-squared</id>
-    <content type="html"><![CDATA[<h2>In the quest for the perfect conf</h2>
+    <content type="html"><![CDATA[<h4>In the quest for the perfect conf</h4>
 
 <p>In my previous post, I wrote about my experience <a href="http:///posts/how-to-vim/">switching to Vim</a>. After getting familiar with using Vim, I started to search on ways to improve my workflow. At the time, I was using Janus build and I have to say, I didn&rsquo;t enjoy it too much. So I had two choices; the first was to start off and build my own Vim configuration from the ground up and the second was to find a &ldquo;pret-a-porter&rdquo; solution. I chose the latter and head to Github to start the quest of finding the perfect Vim configuration. I had already excluded Janus because way too complicated to mess around with and it&rsquo;s pretty heavy as well. Then, I remembered about <a href="https://github.com/fatih/subvim/">Subvim</a> which is a great effort to emulate Sublime Text 2 in a Vim environment. That didn&rsquo;t suit me as well, found it to be heavy and just not my taste.</p>
 
-<h2>The Holy Grail</h2>
+<h4>The Holy Grail</h4>
 
 <p>And then I remembered about <a href="https://github.com/square/maximum-awesome">maximum awesome</a>, made with love by Square and decided to install it right away to test it out. And boy, it is good! First of all, the installation process is simple, painless and quick. I fired up my MacVim and tried it out. My first impression was that it felt agile, looked beautiful but lacked some functionality that I&rsquo;ve been used from my previous configurations.</p>
 
 <p>Almost right away, I decided to fork it and made my changes available for all and also, have them backed up in Github (just in case).</p>
 
-<h2>A minimal Vim configuration</h2>
+<h4>A minimal Vim configuration</h4>
 
 <p>And that&rsquo;s how <a href="https://github.com/tsironis/maximum-awesome-squared">(maximum-awesome)<sup>2</sup></a> was born, humbly named after his great ancestor!</p>
 
@@ -158,33 +158,33 @@ things</a>.</p>
 
 <p><img src="http://i.imgur.com/GUUm9q0.gif" alt="Maximum Awesome Squared animation" /></p>
 
-<h2>Ubuntu support?</h2>
+<h4>Ubuntu support?</h4>
 
 <p>Ok, maximum awesome is built for Mac OS X, but I didn&rsquo;t see any valid reasons why it couldn&rsquo;t play on Ubuntu as well. And also, I really, really needed my config in my Ubuntu desktop as well. So, I made the decision to hack the original Rakefile in order to made it work nicely with Ubuntu. Although I&rsquo;m not that happy with the quality of the new version, I made it work. Maybe some time in the future I&rsquo;ll do some optimisation.</p>
 
-<h2>Customize it!</h2>
+<h4>Customize it!</h4>
 
 <p>The great advantage with the maximum-awesome is that you can easily hack it, change it, make it unique. I was familiar with the code in about thirty minutes or so. If you want to change the plugins, just edit the <code>.gitmodules</code> file and run <code>rake</code>. Make your personal changes (changes that will only be interesting to you, that is) in the <code>vimrc.local</code> file. The script will download the new plugins and everything else should be taken care of by Pathogen.</p>
 
-<h2>Future plans</h2>
+<h4>Future plans</h4>
 
-<h3>Full Ubuntu/Debian support</h3>
+<h5>Full Ubuntu/Debian support</h5>
 
 <p>There are some things that are very sloppy about the rakefile, I plan on making some optimizations and also, finding a way to offer greater support for Ubuntu/Debian systems but also, other Linux distros as well.</p>
 
-<h3>Better installation experience in both platforms</h3>
+<h5>Better installation experience in both platforms</h5>
 
 <p>Currently, the implementation of the installation plugin is not that elegant and I want to encourage the customization and make it as easy and seamless as possible.</p>
 
-<h3>Better handling of Git submodules (plugins)</h3>
+<h5>Better handling of Git submodules (plugins)</h5>
 
 <p>The downloaded plugins in the <code>vim/bundle</code> folder shouldn&rsquo;t be added in the repo, instead they should be just local copies and everything should be handled through the <code>.gitmodules</code> file. I plan on improving that.</p>
 
-<h3>Improve Vim performance</h3>
+<h5>Improve Vim performance</h5>
 
 <p>Sometimes, MacVim and Vim feels heavy, especially after some hours of usage. I plan on making make it faster and less heavyweight (or at least, investigate why)</p>
 
-<h2>Conclusion</h2>
+<h4>Conclusion</h4>
 
 <p><a href="https://github.com/tsironis/maximum-awesome-squared">(maximum-awesome)<sup>2</sup></a> is just my take on the original project. If you like it, fork it and let&rsquo;s make it better!</p>
 
@@ -203,11 +203,11 @@ things</a>.</p>
 
 <p>It was then that I decided to give it a try. Of course, I had already open vim in my terminal but avoided it in a regular basis. This time I was really psyched about it; I borrowed @alexkompotis&rsquo;s custom configuration and fired up my engines. But, I failed big time. The truth is that at this point I had a very beefed up Sublime Text configuration. I rushed my workflow change and I wasn&rsquo;t patient enough to laern Vim.</p>
 
-<h3>The Vim philoshopy</h3>
+<h5>The Vim philoshopy</h5>
 
 <p>Then I came across this awesome game, <a href="http://vim-adventures.com/">Vim Adventures</a> that sets to teach you the Vim philosophy while having fun. It was a good experience but I did get bored after some days. I learned so much about Vim while playing and I was already &ldquo;getting&rdquo; the Vim way of thinking. After that, I read the classic book Practical Vim, which expanded my knowledge at how Vim is working. It turned out that all this time, I was forcing myself in the opposite direction than Vim dictates; Vim&rsquo;s normal mode is in fact a command mode (duh!) and the insert mode is, well, for inserting text. The self-evidence of the previous statement is actually the whole point of Vim philosophy.</p>
 
-<h3>Take it easy, continue your work, learn in the process</h3>
+<h5>Take it easy, continue your work, learn in the process</h5>
 
 <p>Then one day, I decided to make the switch to Vim. I have tried for a week or so the command mode of Sublime Text and I found it very limiting and unusable in general. I chose the <a href="https://github.com/carlhuda/janus">Janus build</a> to get started with and read this <a href="http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/">very helpful article</a> which in a nutshell says &ldquo;take it easy and you&rsquo;ll get there&rdquo;. Start with soft settings, enable mouse, enable arrow navigation and try a configuration that doesn&rsquo;t alienate you. Then gradually, learn new tricks and adopt your workflow over time.</p>
 
@@ -237,7 +237,7 @@ facilitate some more complex tasks.</p>
 please do since some the following extensions are available only in
 newer versions of Mercurial.</p>
 
-<h2>Rebase</h2>
+<h4>Rebase</h4>
 
 <p>I think the feature of git that I really missed is
 rebase. Mercurial&rsquo;s rebase is not as hardcore as Git&rsquo;s rebase but it
@@ -263,7 +263,7 @@ usage of rebase extension and it actually does have a lot more built-in function
 Mercurial&rsquo;s serious flaw (in my opinion) with continuous merges, that
 litter repo&rsquo;s history with useless merge commits.</p>
 
-<h2>hg-prompt</h2>
+<h4>hg-prompt</h4>
 
 <p>This is an awesome extension by <a href="http://stevelosh.com/">Steve Losh</a>, that allows
 you to display all the useful info about the Mercurial current repo in your
@@ -272,7 +272,7 @@ terminal.</p>
 <p>Steve has an <a href="http://sjl.bitbucket.org/hg-prompt/">excellent documentation</a> about installing and getting started with this extension but also, has written a blog <a href="http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/#mercurial-repository-information">about his
 zsh setup</a>, including several details about <code>hg-prompt</code> .</p>
 
-<h2>graphlog</h2>
+<h4>graphlog</h4>
 
 <p>Graphlog is a built-in extension for Mercurial, which is the equivalent of
 <code>git log --graph</code> and it <strong><em>formats the output as a graph representing the revision history using ASCII characters to the left of the log</em></strong>, quoting extension&rsquo;s description.</p>
@@ -309,7 +309,7 @@ nothing fancy at all. It still accepts all the options of glog.</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h2>hg blame</h2>
+<h4>hg blame</h4>
 
 <p>One other Git command that Mercurial really needs is the <code>git
 blame</code>. This one isn&rsquo;t exactly what you might think, it&rsquo;s just for
@@ -347,7 +347,7 @@ power tool in your hands!</p>
 
 <p></p>
 
-<h2>pager</h2>
+<h4>pager</h4>
 
 <p>Very nice and handy plugin to add <code>less</code>-like functionality for commands that have huge outputs, eg. log, diff etc.</p>
 
@@ -362,7 +362,7 @@ power tool in your hands!</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h2>The end</h2>
+<h4>The end</h4>
 
 <p>I will come back with a second part, covering the rest of the plugins I&rsquo;m using.</p>
 
@@ -377,13 +377,13 @@ power tool in your hands!</p>
     <id>http:///blog/2013/05/17/why-open-source-really-matters</id>
     <content type="html"><![CDATA[<p>This is one of these endless battles in the history of humanity.  Open-source vs. proprietary software; is one of the most vibrant disputes of all time. I tell you, it&rsquo;s not an easy one and being a part of tech community, you feel obligated to choose a side from early on, as everyone is taking a stand on this subject (though it&rsquo;s not required after all).</p>
 
-<h2>Love at first sight</h2>
+<h4>Love at first sight</h4>
 
 <p>I was always fascinated by the fact that you can find so many free things on Internet and that you can legally use and build upon. My first introduction to Linux was love at first sight and  it&rsquo;s been a while since then. I had a crappy desktop for six years that almost from the first day, didn&rsquo;t bend to my will and I spent most of time trying to make Windows XP work as they supposed to. One day, I had enough with it and I installed Ubuntu 7.04 from a magazine CD, in order to test Linux.</p>
 
 <p>I still remember that feeling that I can bypass everything proprietary and I actually <strong>don&rsquo;t</strong> have to pay to make my computer work. I was using something cool that a common person, like me and you, have built in his free time. And it was really <strong>that</strong> faster than Windows. And that&rsquo;s because, open-source software is the lovechild of developers - for most of us, it&rsquo;s our hobby and you can tell from the quality of most open-source projects. Open-source is powered by love.</p>
 
-<h2>Discovering a new world</h2>
+<h4>Discovering a new world</h4>
 
 <p>Until that moment, I though that software was a black-box that I would never able to learn, build or mess around with. It was destined only for highly-skilled human beings. Yes, I was playing games, using programs and Windows operating system itself, but I hand&rsquo;t figure out what&rsquo;s going on underneath it, it was like a cool magic trick. The command line was just a historical evidence of how the computers used to look like in the past.</p>
 
@@ -391,7 +391,7 @@ power tool in your hands!</p>
 
 <p>You see, the good thing with web technologies is that you have an extremely big amount for examples and implementations to copy and learn from. Just go to your favourite webpage and view the source. It&rsquo;s there waiting for you to copy it, modify it, learn by its mistakes.</p>
 
-<h3>The web is completely open-source, you can literally see everything on a page.</h3>
+<h5>The web is completely open-source, you can literally see everything on a page.</h5>
 
 <p>Then, a couple years ago, I discover Github and weirdly enough, later I started using git. Initially, I was thinking Github was just a cool site with projects, but, oh! I tell you. It&rsquo;s more than that. People don&rsquo;t always understand <a href="http://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/">why Github is so popular and useful for the tech community</a>. And yes, I would say that Github could be useful, not only for programmers, but non-technical people as well.</p>
 
@@ -412,7 +412,7 @@ power tool in your hands!</p>
     <link href="http:///blog/2013/04/17/making-engaging-presentations/"/>
     <updated>2013-04-17T00:00:00+03:00</updated>
     <id>http:///blog/2013/04/17/making-engaging-presentations</id>
-    <content type="html"><![CDATA[<h2>A brief intro</h2>
+    <content type="html"><![CDATA[<h4>A brief intro</h4>
 
 <p>Many of my friends, being developers like me, have trouble when it comes down to design some basic stuff and that&rsquo;s completely normal. Developers, although they create beautiful &amp; elegant stuff, they don&rsquo;t particularly like drawing lines and colours to compose something.</p>
 
@@ -420,31 +420,31 @@ power tool in your hands!</p>
 
 <p>So, there will be some time in everybody&rsquo;s life that you&rsquo;ll have to confront this untameable beast called PowerPoint or Keynote or whatever. But, mainly, as most things in the football we call Earth, is not about the tool you use, but how you use it. So, I thought it would be helpful if I shared some thoughts on this one.</p>
 
-<h2>1. Decide the theme of your presentation</h2>
+<h4>1. Decide the theme of your presentation</h4>
 
 <p>Every presentation have a theme and your design should follow the theme closely without being on top of it. Content is the king, as they say. And your design should be in context. Imagine if you&rsquo;re doing a technical presentation and you&rsquo;re using a children&rsquo;s party preset from PowerPoint. Hideous choice indeed!</p>
 
-<h2>2. Typefaces matter</h2>
+<h4>2. Typefaces matter</h4>
 
 <p>It&rsquo;s easier than ever to find a good quality typeface online. You should search something that will be in harmony with the theme of your presentation. For example, if you&rsquo;re presenting about a cutting-edge technology, you don&rsquo;t want to use neither a serif font nor a curly/hipster font. You should probably go with <a href="https://www.google.com/search?btnG=1&amp;pws=0&amp;q=modern+sans-serif+typefaces">a modern, yet serious sans-serif font</a>.</p>
 
-<h2>3. Colours is the single most important thing of design</h2>
+<h4>3. Colours is the single most important thing of design</h4>
 
 <p>Colours say more for you and your story than you would imagine. You should carefully use a colour palette, from sites like Colour Lovers, Dribbble etc. Just a tip here: not all palettes work well for a presentation. Firstly, some palettes have too much contrast you&rsquo;ll end up tiring your viewers' eyes. Also, chances are that you&rsquo;re going to present in a shitty projector that doesn&rsquo;t care about what colour profiles you have in your computer. And as Yoda says:</p>
 
-<h3>&ldquo;Wise with your colours choices, you should be. Herh, herh, herh&rdquo;.</h3>
+<h5>&ldquo;Wise with your colours choices, you should be. Herh, herh, herh&rdquo;.</h5>
 
 <p>I mean, he&rsquo;s Yoda! He should know better than any of us!</p>
 
-<h2>4. Use <em>HUGE</em> font sizes</h2>
+<h4>4. Use <em>HUGE</em> font sizes</h4>
 
 <p>You don&rsquo;t want to start presenting and all you hear from your audience is &ldquo;we can&rsquo;t see your slides, maaaan. You&rsquo;re lame!! Booh!&rdquo;. Audiences tend to be harsh with presenters and for that, you have to facilitate things for them as much as possible. So you should  multiply your normal font size times three. For example, normal text size should be around 30 points, and title 60 or 90 points. But I personally use different font sizes in each presentation, as the design changes. You can also use font sizes to emphasise some text you want to be &ldquo;boom! in their faces&rdquo;.</p>
 
-<h2>5. Find beautiful images on Flickr</h2>
+<h4>5. Find beautiful images on Flickr</h4>
 
 <p>Another nice trick you can do is to use wonderful images that describe or have something to do with your content. Flickr is full of great looking photographs and some of that are under Creative Commons license which means you can use it, well, almost for anything, depending what the author indicates.</p>
 
-<h2>6. 100-words paragraphs are no good!</h2>
+<h4>6. 100-words paragraphs are no good!</h4>
 
 <p>Last but least, I beg you! Don&rsquo;t put your entire talk in your slides. It is maybe the most common mistake I see in people&rsquo;s presentations. They most likely write what they have to tell in their presentation and then, they just read it out loud to their audience. It&rsquo;s boring and you&rsquo;ll end up awkward as hell, reading your own words. Instead, you should use small, comprehensive titles with a small, more analytical subtitle. And that&rsquo;s about it. Also, unordered lists are a great way to summarise your slide content and also, have a flow to use while you&rsquo;re presenting.</p>
 
@@ -466,29 +466,29 @@ power tool in your hands!</p>
     <link href="http:///blog/2013/03/24/our-education-competent/"/>
     <updated>2013-03-24T00:00:00+02:00</updated>
     <id>http:///blog/2013/03/24/our-education-competent</id>
-    <content type="html"><![CDATA[<h2>Education on the 21th century</h2>
+    <content type="html"><![CDATA[<h4>Education on the 21th century</h4>
 
 <p>I&rsquo;ve been always been an keen observer of human behaviour and while being a member of the academic community, is kind of inevitable not to identify some interesting facts about our educational system and how that&rsquo;s being formed about our own behaviours.</p>
 
 <p>First, I came to the following conclusion when I was in the second year of my studies and all I was hearing from freshmen students was how the professors didn&rsquo;t pay attention to them exclusively or care if they were clear enough for the students. Actually, what the freshmen wanted, was to get consumed knowledge without hassling to actually learn it. Somewhat like the fast-food drive-ins. Looking back to that attitude, it certainly reminds me how school works: the teacher <em>has to</em> teach you some stuff and consequentially, you have to absorb as much as you can, without having the option or a state of mind to question that information.</p>
 
-<h3>An education system specifically designed many, many years ago is merely competent today</h3>
+<h5>An education system specifically designed many, many years ago is merely competent today</h5>
 
 <p>And as <a href="http://www.youtube.com/watch?v=zDZFcDGpL4U">Sir Ken Robinson</a> correctly claims, that happened because this is a educational system designed specifically for the needs of Industrial Revolution. Most of the info we get today from schools and universities is seriously outdated and perhaps, flawed. Now, this educational system is quite resistive and narrow-minded. It has all kinds of mechanisms to ensure that the content of courses will be in the standards of the government - and that&rsquo;s about it. You can&rsquo;t go further than that.</p>
 
-<h2>An outdated education</h2>
+<h4>An outdated education</h4>
 
 <p>The above educational system is based on the premise that your success in life depends directly with a graduate or master&rsquo;s degree. Thus, you have to obey to their guidelines. This doesn&rsquo;t fit me personally, I can&rsquo;t be easily be constrained, at least not without a cause that actually makes sense.</p>
 
 <p>On the other hand, even since I got to know the web, I found a great pleasure learning new things, not by reading old textbooks, but by cross-checking as many references I could possibly find. You can actually develop a theory of mind on your own, by reading and researching hundreds of sources. You don&rsquo;t have to be constrained to a single textbook anymore.</p>
 
-<h2>Be your own teacher</h2>
+<h4>Be your own teacher</h4>
 
 <p>But unfortunately, that&rsquo;s something is not taught in school. Every now and then, some friend asks me about something and I pretty much enjoy sending him/her a link from <a href="http://lmgtfy.com/">Let me Google that for you</a>. It&rsquo;s hilarious! But seriously, Google can find you every piece of information with a few keystrokes; isn&rsquo;t that amazing? Instead of using only your own mind, you can use other&rsquo;s thoughts and outcomes to enrich your own knowledge.</p>
 
 <p>If your plan is to be a tech person, you&rsquo;re in more luck than everybody else. The web is always full of tech articles, tutorials and also, some fun ways on learning new things.</p>
 
-<h2>The future is here</h2>
+<h4>The future is here</h4>
 
 <p>The past few years, websites like Codecademy, CodeSchool, Coursera, Udacity have made the learning process so accessible that you can go to class drinking cocoa from your favourite mug in your pyjamas while relaxing in your bed listening your favourite jazz album.</p>
 
@@ -503,7 +503,7 @@ power tool in your hands!</p>
     <link href="http:///blog/2013/03/20/hardcore-forking-action/"/>
     <updated>2013-03-20T00:00:00+02:00</updated>
     <id>http:///blog/2013/03/20/hardcore-forking-action</id>
-    <content type="html"><![CDATA[<h2>Sexism, tech conferences &amp; Twitter hatred</h2>
+    <content type="html"><![CDATA[<h4>Sexism, tech conferences &amp; Twitter hatred</h4>
 
 <p>Few days ago, <a href="http://techcrunch.com/2013/03/21/a-dongle-joke-that-spiraled-way-out-of-control/">a bad situation</a> happened at PyCon. Reportedly, some developers were making some forking jokes and Adria Richards, a (ex) Sendgrid-employed developer evangelist was offended by these jokes. She talked about feminism and stuff like that.</p>
 
@@ -526,7 +526,7 @@ power tool in your hands!</p>
     <link href="http:///blog/2013/03/16/an-unusual-windows-laptop/"/>
     <updated>2013-03-16T00:00:00+02:00</updated>
     <id>http:///blog/2013/03/16/an-unusual-windows-laptop</id>
-    <content type="html"><![CDATA[<h2>A little bit of history</h2>
+    <content type="html"><![CDATA[<h4>A little bit of history</h4>
 
 <p>Almost a year ago, I was searching about my new laptop, which eventually <a href="http://dtsironis.net/posts/a-month-with-mac/">came to be Macbook Air 13"</a>. It was a long search for the perfect and it turned out very well. I loved my Macbook Air from the first touch; it&rsquo;s light, built like a tank with so much power underneath. It never lets me down.</p>
 
@@ -534,11 +534,11 @@ power tool in your hands!</p>
 
 <p>But one of the candidates was then a new-comer. I think it had just hit the news and I was actually starring at the beautiful product page for hours. It was a piece of beauty, probably the best looking laptop ever made. It&rsquo;s the Dell XPS 13.</p>
 
-<h2>Still one of the best</h2>
+<h4>Still one of the best</h4>
 
 <p>Several days ago, I was asked for my opinion on a laptop. Of course, I started searching the web for the best laptop out there, I found some interesting laptops, but then I remembered the one and only XPS 13. I had seen it before in the Greece JS meetup and I was staring at it lustfully, feeling a bit ashamed of my Macbook Air.</p>
 
-<h2>Unboxing</h2>
+<h4>Unboxing</h4>
 
 <p>When I unboxed it I was amazed by the high quality standards of the new dell packaging. I thought it would be one of this ugly recycled-paper boxes that used to ship computers in. But it&rsquo;s a beautiful black box with a nice feel and inside it, there was a case. The only purpose of the case was to contain the laptop itself. I tell you, it was awesome to open the case and find the laptop lying there, like a treasure in a chest.</p>
 
@@ -546,7 +546,7 @@ power tool in your hands!</p>
 
 <p>The laptop itself is very solid build quality and it has an awesome backlit chiclet keyboard.</p>
 
-<h2>Software</h2>
+<h4>Software</h4>
 
 <p>The only problem is that it shipped with Windows 7 which seems a little outdated to me, since Windows 8 is on the market for quite some time now. Also, I&rsquo;m allergic to the usual crapware that OEMs pack with their Windows installations. They&rsquo;re hideous, useless piece of software that insult the rest of software.</p>
 
@@ -569,7 +569,7 @@ power tool in your hands!</p>
 
 <p>And also, it looks gorgeous!</p>
 
-<h2>Everytime you use leather in your UI, a puppy dies</h2>
+<h4>Everytime you use leather in your UI, a puppy dies</h4>
 
 <p>But as I said before, there are some problems with the software.  Apple is currently left behind in this field. I&rsquo;m talking about UI and UX issues. Most apps feel a little weird and also, the skeuomorphism used in the UI design is horrible. Apple has to learn some great lessons on that from Microsoft. In my opinion, Windows 8 is the best thing happened for UX design since a long time. It&rsquo;s just feel nice and natural without pretending to be something it&rsquo;s not.</p>
 
@@ -582,7 +582,7 @@ power tool in your hands!</p>
     <link href="http:///blog/2012/11/02/geembot-is-cool/"/>
     <updated>2012-11-02T00:00:00+02:00</updated>
     <id>http:///blog/2012/11/02/geembot-is-cool</id>
-    <content type="html"><![CDATA[<h2>How we deployed our own robot in da cloud</h2>
+    <content type="html"><![CDATA[<h4>How we deployed our own robot in da cloud</h4>
 
 <p>Few months ago, I started following <a href="http://zachholman.com/">@holman</a> on Github and Twitter. He&rsquo;s doing a great job on Github and on open-source projects and he&rsquo;s creating some very interesting video and screencasts.</p>
 
@@ -605,7 +605,7 @@ power tool in your hands!</p>
     <link href="http:///blog/2012/10/30/about-this-weblog/"/>
     <updated>2012-10-30T00:00:00+02:00</updated>
     <id>http:///blog/2012/10/30/about-this-weblog</id>
-    <content type="html"><![CDATA[<h2>The quick (but mandatory intro)</h2>
+    <content type="html"><![CDATA[<h4>The quick (but mandatory intro)</h4>
 
 <p>Hello world! This is the first blog post on this super-hipster blog.</p>
 
