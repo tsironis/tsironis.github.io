@@ -1,0 +1,672 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta charset="utf-8">
+	<title>My Octopress Blog</title>
+
+	<meta name="author" content="Your Name">
+	
+	<meta name="description" content="28 Sep 2013 (Maximum-awesome)^2 In the quest for the perfect conf In my previous post, I wrote about my experience switching to Vim. After getting &hellip;">
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400" />
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/.min.css" />
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+
+<body class="home-template">
+  <header id="site-head">
+  <div class="vertical">
+    <div id="site-head-content" class="inner">
+      <h1 class="blog-title"><a class="no-rollover" href="/">My Octopress Blog</a></h1>
+      <h2 class="blog-description">A blogging framework for hackers.</h2>
+    </div>
+  </div>
+</header>
+  <main class="content" role="main">
+    
+
+
+
+  
+    <article class="post">
+      
+	
+		
+	
+	<header class="post-header">
+		<span class="post-meta">28 Sep 2013</span>
+		<h2 class="post-title">
+			
+			<a href="/blog/2013/09/28/maximum-awesome-squared/">
+			
+				(Maximum-awesome)^2</a>
+		</h2>
+	</header>
+	<section class="post-excerpt">
+		<h4>In the quest for the perfect conf</h4>
+
+<p>In my previous post, I wrote about my experience <a href="/posts/how-to-vim/">switching to Vim</a>. After getting familiar with using Vim, I started to search on ways to improve my workflow. At the time, I was using Janus build and I have to say, I didn&rsquo;t enjoy it too much. So I had two choices; the first was to start off and build my own Vim configuration from the ground up and the second was to find a &ldquo;pret-a-porter&rdquo; solution. I chose the latter and head to Github to start the quest of finding the perfect Vim configuration. I had already excluded Janus because way too complicated to mess around with and it&rsquo;s pretty heavy as well. Then, I remembered about <a href="https://github.com/fatih/subvim/">Subvim</a> which is a great effort to emulate Sublime Text 2 in a Vim environment. That didn&rsquo;t suit me as well, found it to be heavy and just not my taste.</p>
+
+<h4>The Holy Grail</h4>
+
+<p>And then I remembered about <a href="https://github.com/square/maximum-awesome">maximum awesome</a>, made with love by Square and decided to install it right away to test it out. And boy, it is good! First of all, the installation process is simple, painless and quick. I fired up my MacVim and tried it out. My first impression was that it felt agile, looked beautiful but lacked some functionality that I&rsquo;ve been used from my previous configurations.</p>
+
+<p>Almost right away, I decided to fork it and made my changes available for all and also, have them backed up in Github (just in case).</p>
+
+<h4>A minimal Vim configuration</h4>
+
+<p>And that&rsquo;s how <a href="https://github.com/tsironis/maximum-awesome-squared">(maximum-awesome)<sup>2</sup></a> was born, humbly named after his great ancestor!</p>
+
+<p>Right away, I had some issues with the status line, so initially I went with Powerline and minibufexplorer, but after a while I switched to the vim-airline which does both things (and which I love). Also, around that time I started using Jellybeans colorscheme. Made some other changes in the vimrc and I was pretty happy with my setup.</p>
+
+<p><img src="http://i.imgur.com/GUUm9q0.gif" alt="Maximum Awesome Squared animation" /></p>
+
+<h4>Ubuntu support?</h4>
+
+<p>Ok, maximum awesome is built for Mac OS X, but I didn&rsquo;t see any valid reasons why it couldn&rsquo;t play on Ubuntu as well. And also, I really, really needed my config in my Ubuntu desktop as well. So, I made the decision to hack the original Rakefile in order to made it work nicely with Ubuntu. Although I&rsquo;m not that happy with the quality of the new version, I made it work. Maybe some time in the future I&rsquo;ll do some optimisation.</p>
+
+<h4>Customize it!</h4>
+
+<p>The great advantage with the maximum-awesome is that you can easily hack it, change it, make it unique. I was familiar with the code in about thirty minutes or so. If you want to change the plugins, just edit the <code>.gitmodules</code> file and run <code>rake</code>. Make your personal changes (changes that will only be interesting to you, that is) in the <code>vimrc.local</code> file. The script will download the new plugins and everything else should be taken care of by Pathogen.</p>
+
+<h4>Future plans</h4>
+
+<h5>Full Ubuntu/Debian support</h5>
+
+<p>There are some things that are very sloppy about the rakefile, I plan on making some optimizations and also, finding a way to offer greater support for Ubuntu/Debian systems but also, other Linux distros as well.</p>
+
+<h5>Better installation experience in both platforms</h5>
+
+<p>Currently, the implementation of the installation plugin is not that elegant and I want to encourage the customization and make it as easy and seamless as possible.</p>
+
+<h5>Better handling of Git submodules (plugins)</h5>
+
+<p>The downloaded plugins in the <code>vim/bundle</code> folder shouldn&rsquo;t be added in the repo, instead they should be just local copies and everything should be handled through the <code>.gitmodules</code> file. I plan on improving that.</p>
+
+<h5>Improve Vim performance</h5>
+
+<p>Sometimes, MacVim and Vim feels heavy, especially after some hours of usage. I plan on making make it faster and less heavyweight (or at least, investigate why)</p>
+
+<h4>Conclusion</h4>
+
+<p><a href="https://github.com/tsironis/maximum-awesome-squared">(maximum-awesome)<sup>2</sup></a> is just my take on the original project. If you like it, fork it and let&rsquo;s make it better!</p>
+
+<p><a href="https://news.ycombinator.com/item?id=6462427">Join the discussion on HackerNews</a></p>
+
+	</section>
+
+    </article>
+
+  
+    <article class="post">
+      
+	
+	<header class="post-header">
+		<span class="post-meta">22 Sep 2013</span>
+		<h2 class="post-title">
+			
+			<a href="/blog/2013/09/22/how-to-vim/">
+			
+				Vim: From N00b to Meh</a>
+		</h2>
+	</header>
+	<section class="post-excerpt">
+		<p>I grew up in a fairly technical family; my parents have both programming background. Heck! my mother programs in <code>vi</code> until this day and I was always aware of this obscure thing, called Vim. But three years ago, when I decided it was time to move from the (then popular) Notepad++, I came across Sublime Text 2. At the time, it was still in beta version, but it was apparent to me that it was a completely different experience than the old Notepad++. The vast choice of plugins, the dark theme, the performance of the whole application was a no-brainer for me. I fell in love with it at first sight, I adopted it as my default editor and it served me well for almost three years across Windows, Linux &amp; Mac.</p>
+
+<p>A few months ago, I joined <a href="http://www.bugsense.com/">BugSense</a> as a front-end engineer. Most guys at BugSense use Sublime Text, so I was right at home. But there is a guy (<a href="http://twitter.com/alexkompotis">@alexkompotis</a>) who is using MacVim. I was immediately intrigued by it and quite interested to see his workflow. The main question that came in my mind, it was how the heck did he manage to work everyday in that obscure, mystical and old fashioned editor. Sublime Text 2 is, I thought at the time, far more superior in terms of usability.</p>
+
+<p>It was then that I decided to give it a try. Of course, I had already open vim in my terminal but avoided it in a regular basis. This time I was really psyched about it; I borrowed @alexkompotis&rsquo;s custom configuration and fired up my engines. But, I failed big time. The truth is that at this point I had a very beefed up Sublime Text configuration. I rushed my workflow change and I wasn&rsquo;t patient enough to laern Vim.</p>
+
+<h5>The Vim philoshopy</h5>
+
+<p>Then I came across this awesome game, <a href="http://vim-adventures.com/">Vim Adventures</a> that sets to teach you the Vim philosophy while having fun. It was a good experience but I did get bored after some days. I learned so much about Vim while playing and I was already &ldquo;getting&rdquo; the Vim way of thinking. After that, I read the classic book Practical Vim, which expanded my knowledge at how Vim is working. It turned out that all this time, I was forcing myself in the opposite direction than Vim dictates; Vim&rsquo;s normal mode is in fact a command mode (duh!) and the insert mode is, well, for inserting text. The self-evidence of the previous statement is actually the whole point of Vim philosophy.</p>
+
+<h5>Take it easy, continue your work, learn in the process</h5>
+
+<p>Then one day, I decided to make the switch to Vim. I have tried for a week or so the command mode of Sublime Text and I found it very limiting and unusable in general. I chose the <a href="https://github.com/carlhuda/janus">Janus build</a> to get started with and read this <a href="http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/">very helpful article</a> which in a nutshell says &ldquo;take it easy and you&rsquo;ll get there&rdquo;. Start with soft settings, enable mouse, enable arrow navigation and try a configuration that doesn&rsquo;t alienate you. Then gradually, learn new tricks and adopt your workflow over time.</p>
+
+<p>Finally, I made it! It&rsquo;s been more than two months now and I never looked back. I haven&rsquo;t opened Sublime Text since the first week of my switch and I&rsquo;m getting progressively better. Now, I&rsquo;m using an opinionated version of Square&rsquo;s maximum-awesome project that I called it <a href="https://github.com/tsironis/maximum-awesome-squared">maximum-awesome-squared</a> for obvious reasons :)</p>
+
+<p>But more of that in my next post.</p>
+
+<p><a href="https://news.ycombinator.com/item?id=6425024">Join the discussion on HackerNews</a></p>
+
+	</section>
+
+    </article>
+
+  
+    <article class="post">
+      
+	
+	<header class="post-header">
+		<span class="post-meta">17 Aug 2013</span>
+		<h2 class="post-title">
+			
+			<a href="/blog/2013/08/17/hg-perfect-setup/">
+			
+				Mercurial's Perfect Setup [Part. I]</a>
+		</h2>
+	</header>
+	<section class="post-excerpt">
+		<p>I&rsquo;ve been using Mercurial every day, since I joined BugSense a few
+months ago. At the time, I was an advanced Git user and it took me a
+while to understand what exactly is Mercurial&rsquo;s philosophy and adapt my
+workflow to the new system.</p>
+
+<p>So, I spent a good amount of time to finetune my configuration and find the perfect setup for my Mercurial
+workflow. I use a handful of already built-in (but not enabled by default) extensions, some external extensions and some custom aliases to
+facilitate some more complex tasks.</p>
+
+<p>As of this writing, the <code>hg --version</code> is 2.6. If you haven&rsquo;t update it yet,
+please do since some the following extensions are available only in
+newer versions of Mercurial.</p>
+
+<h4>Rebase</h4>
+
+<p>I think the feature of git that I really missed is
+rebase. Mercurial&rsquo;s rebase is not as hardcore as Git&rsquo;s rebase but it
+does the work done. You can enable it in your <code>~/.hgrc</code> file.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="o">[</span>extensions<span class="o">]</span>
+</span><span class='line'><span class="nv">rebase</span> <span class="o">=</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p> I mainly use rebase for fetching commits from the
+upstream repository (Bitbucket, self-hosted hg, you name it). This is a very basic
+usage of rebase extension and it actually does have a lot more built-in functions but I don&rsquo;t really need them in my current workflow.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>hg pull --rebase
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This is very useful in my case because it solves
+Mercurial&rsquo;s serious flaw (in my opinion) with continuous merges, that
+litter repo&rsquo;s history with useless merge commits.</p>
+
+<h4>hg-prompt</h4>
+
+<p>This is an awesome extension by <a href="http://stevelosh.com/">Steve Losh</a>, that allows
+you to display all the useful info about the Mercurial current repo in your
+terminal.</p>
+
+<p>Steve has an <a href="http://sjl.bitbucket.org/hg-prompt/">excellent documentation</a> about installing and getting started with this extension but also, has written a blog <a href="http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/#mercurial-repository-information">about his
+zsh setup</a>, including several details about <code>hg-prompt</code> .</p>
+
+<h4>graphlog</h4>
+
+<p>Graphlog is a built-in extension for Mercurial, which is the equivalent of
+<code>git log --graph</code> and it <strong><em>formats the output as a graph representing the revision history using ASCII characters to the left of the log</em></strong>, quoting extension&rsquo;s description.</p>
+
+<p>In order to use it just enable it in your <code>~/.hgrc</code> config
+file and your good to go.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="o">[</span>extensions<span class="o">]</span>
+</span><span class='line'><span class="nv">graphlog</span> <span class="o">=</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You can use it by typing the following in your
+terminal:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>hg log -G
+</span><span class='line'><span class="c"># or</span>
+</span><span class='line'><span class="nv">$ </span>hg glog
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Personally, I use it via an alias, just a shorthand to make it more accessible,
+nothing fancy at all. It still accepts all the options of glog.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="o">[</span><span class="nb">alias</span><span class="o">]</span>
+</span><span class='line'><span class="nv">lg</span> <span class="o">=</span> glog
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h4>hg blame</h4>
+
+<p>One other Git command that Mercurial really needs is the <code>git
+blame</code>. This one isn&rsquo;t exactly what you might think, it&rsquo;s just for
+finding in which commit or changeset a line was added or last modified.
+It&rsquo;s pretty handy as the time goes by and chances are you have forgotten
+what you have written a few months ago.</p>
+
+<p>So the <a href="http://stackoverflow.com/questions/2228188/finding-the-author-of-a-line-of-code-in-mercurial">solution</a> I found on Stack Overflow was using the <code>annotate</code> command with a few arguments. I took this and after I added my preferred arguments I create an alias in order to create <code>hg blame</code>.</p>
+
+<p>Here is the code for this alias:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="o">[</span><span class="nb">alias</span><span class="o">]</span>
+</span><span class='line'><span class="nv">blame</span> <span class="o">=</span> annotate --user -c
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, you can just type the following and you will
+be greeted with a nice output showing user and changeset number next to
+each line.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>hg blame &lt;path-to-file&gt;
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Combine that with <code>grep</code> or <code>ack</code> and you have a
+power tool in your hands!</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>hg blame &lt;path-to-file&gt; <span class="p">|</span> grep <span class="s2">&quot;some words&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<h4>pager</h4>
+
+<p>Very nice and handy plugin to add <code>less</code>-like functionality for commands that have huge outputs, eg. log, diff etc.</p>
+
+<p>It&rsquo;s easy to setup and already included with Mercurial.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="o">[</span>pager<span class="o">]</span>
+</span><span class='line'><span class="nv">pager</span> <span class="o">=</span> <span class="nv">LESS</span><span class="o">=</span><span class="s1">&#39;FSRX&#39;</span> less
+</span><span class='line'><span class="nv">attend</span> <span class="o">=</span> cat, diff, glog, log, incoming, outgoing, lg, show, lg
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h4>The end</h4>
+
+<p>I will come back with a second part, covering the rest of the plugins I&rsquo;m using.</p>
+
+<p>Head over to <a href="https://news.ycombinator.com/item?id=6319979">Hacker News</a> for the discussion</p>
+
+	</section>
+
+    </article>
+
+  
+    <article class="post">
+      
+	
+	<header class="post-header">
+		<span class="post-meta">17 May 2013</span>
+		<h2 class="post-title">
+			
+			<a href="/blog/2013/05/17/why-open-source-really-matters/">
+			
+				Why Open-source Really Matters?</a>
+		</h2>
+	</header>
+	<section class="post-excerpt">
+		<p>This is one of these endless battles in the history of humanity.  Open-source vs. proprietary software; is one of the most vibrant disputes of all time. I tell you, it&rsquo;s not an easy one and being a part of tech community, you feel obligated to choose a side from early on, as everyone is taking a stand on this subject (though it&rsquo;s not required after all).</p>
+
+<h4>Love at first sight</h4>
+
+<p>I was always fascinated by the fact that you can find so many free things on Internet and that you can legally use and build upon. My first introduction to Linux was love at first sight and  it&rsquo;s been a while since then. I had a crappy desktop for six years that almost from the first day, didn&rsquo;t bend to my will and I spent most of time trying to make Windows XP work as they supposed to. One day, I had enough with it and I installed Ubuntu 7.04 from a magazine CD, in order to test Linux.</p>
+
+<p>I still remember that feeling that I can bypass everything proprietary and I actually <strong>don&rsquo;t</strong> have to pay to make my computer work. I was using something cool that a common person, like me and you, have built in his free time. And it was really <strong>that</strong> faster than Windows. And that&rsquo;s because, open-source software is the lovechild of developers - for most of us, it&rsquo;s our hobby and you can tell from the quality of most open-source projects. Open-source is powered by love.</p>
+
+<h4>Discovering a new world</h4>
+
+<p>Until that moment, I though that software was a black-box that I would never able to learn, build or mess around with. It was destined only for highly-skilled human beings. Yes, I was playing games, using programs and Windows operating system itself, but I hand&rsquo;t figure out what&rsquo;s going on underneath it, it was like a cool magic trick. The command line was just a historical evidence of how the computers used to look like in the past.</p>
+
+<p>Years later and probably because I messed around with Linux for a few years, I got better with computers. It started being my thing. I was tearing apart hardware for fun and learning some simple HTML and I wouldn&rsquo;t never get better into it, if it wasn&rsquo;t for open-source.</p>
+
+<p>You see, the good thing with web technologies is that you have an extremely big amount for examples and implementations to copy and learn from. Just go to your favourite webpage and view the source. It&rsquo;s there waiting for you to copy it, modify it, learn by its mistakes.</p>
+
+<h5>The web is completely open-source, you can literally see everything on a page.</h5>
+
+<p>Then, a couple years ago, I discover Github and weirdly enough, later I started using git. Initially, I was thinking Github was just a cool site with projects, but, oh! I tell you. It&rsquo;s more than that. People don&rsquo;t always understand <a href="http://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/">why Github is so popular and useful for the tech community</a>. And yes, I would say that Github could be useful, not only for programmers, but non-technical people as well.</p>
+
+<p>For me, it&rsquo;s the perfect collaboration tool. You can mess with code, make changes and send it to project&rsquo;s owner for him to decide if he wants to make your chances a part of his project. But you have total freedom to do so and as a matter of fact you&rsquo;re encouraged to.</p>
+
+<p>Also, knowing that you&rsquo;re code is public and everyone could take a look at it, forces you to become better and refine your work. Even more, it lets other people find your mistakes, propose improvements, solve bugs and help you make your software better.</p>
+
+<p>But it&rsquo;s not all about developing great software. Everyone needs to understand that open-source is the stepping stone of modern technology; Nasa, IBM, Apple, RedHat, Google, Facebook, Github, universities are using open-software or earn their living for open-source. Even Microsoft does! It&rsquo;s one of the biggest markets out there. I know it&rsquo;s counterintuitive to say that can actually earn more by giving away free stuff, but it&rsquo;s kind of true.</p>
+
+<p>So, next time you&rsquo;re searching on Google for a nice restaurant, commenting on photo on Facebook, checking you phone for email, even driving your car, just think that you&rsquo;re using Linux or some other form of open-source software.</p>
+
+<p>Yeap. It&rsquo;s <em>that</em> important.</p>
+
+	</section>
+
+    </article>
+
+  
+    <article class="post">
+      
+	
+	<header class="post-header">
+		<span class="post-meta">17 Apr 2013</span>
+		<h2 class="post-title">
+			
+			<a href="/blog/2013/04/17/making-engaging-presentations/">
+			
+				Making Engaging Presentations</a>
+		</h2>
+	</header>
+	<section class="post-excerpt">
+		<h4>A brief intro</h4>
+
+<p>Many of my friends, being developers like me, have trouble when it comes down to design some basic stuff and that&rsquo;s completely normal. Developers, although they create beautiful &amp; elegant stuff, they don&rsquo;t particularly like drawing lines and colours to compose something.</p>
+
+<p>I&rsquo;m one of those people that lies somewhere between; I have an excellent grasp of design, as well as a strong technical background. I like the idea of expressing my thoughts and put other people in a certain mood through design. And it&rsquo;s essential, especially in our days, that the common user is used to high design standards.</p>
+
+<p>So, there will be some time in everybody&rsquo;s life that you&rsquo;ll have to confront this untameable beast called PowerPoint or Keynote or whatever. But, mainly, as most things in the football we call Earth, is not about the tool you use, but how you use it. So, I thought it would be helpful if I shared some thoughts on this one.</p>
+
+<h4>1. Decide the theme of your presentation</h4>
+
+<p>Every presentation have a theme and your design should follow the theme closely without being on top of it. Content is the king, as they say. And your design should be in context. Imagine if you&rsquo;re doing a technical presentation and you&rsquo;re using a children&rsquo;s party preset from PowerPoint. Hideous choice indeed!</p>
+
+<h4>2. Typefaces matter</h4>
+
+<p>It&rsquo;s easier than ever to find a good quality typeface online. You should search something that will be in harmony with the theme of your presentation. For example, if you&rsquo;re presenting about a cutting-edge technology, you don&rsquo;t want to use neither a serif font nor a curly/hipster font. You should probably go with <a href="https://www.google.com/search?btnG=1&amp;pws=0&amp;q=modern+sans-serif+typefaces">a modern, yet serious sans-serif font</a>.</p>
+
+<h4>3. Colours is the single most important thing of design</h4>
+
+<p>Colours say more for you and your story than you would imagine. You should carefully use a colour palette, from sites like Colour Lovers, Dribbble etc. Just a tip here: not all palettes work well for a presentation. Firstly, some palettes have too much contrast you&rsquo;ll end up tiring your viewers' eyes. Also, chances are that you&rsquo;re going to present in a shitty projector that doesn&rsquo;t care about what colour profiles you have in your computer. And as Yoda says:</p>
+
+<h5>&ldquo;Wise with your colours choices, you should be. Herh, herh, herh&rdquo;.</h5>
+
+<p>I mean, he&rsquo;s Yoda! He should know better than any of us!</p>
+
+<h4>4. Use <em>HUGE</em> font sizes</h4>
+
+<p>You don&rsquo;t want to start presenting and all you hear from your audience is &ldquo;we can&rsquo;t see your slides, maaaan. You&rsquo;re lame!! Booh!&rdquo;. Audiences tend to be harsh with presenters and for that, you have to facilitate things for them as much as possible. So you should  multiply your normal font size times three. For example, normal text size should be around 30 points, and title 60 or 90 points. But I personally use different font sizes in each presentation, as the design changes. You can also use font sizes to emphasise some text you want to be &ldquo;boom! in their faces&rdquo;.</p>
+
+<h4>5. Find beautiful images on Flickr</h4>
+
+<p>Another nice trick you can do is to use wonderful images that describe or have something to do with your content. Flickr is full of great looking photographs and some of that are under Creative Commons license which means you can use it, well, almost for anything, depending what the author indicates.</p>
+
+<h4>6. 100-words paragraphs are no good!</h4>
+
+<p>Last but least, I beg you! Don&rsquo;t put your entire talk in your slides. It is maybe the most common mistake I see in people&rsquo;s presentations. They most likely write what they have to tell in their presentation and then, they just read it out loud to their audience. It&rsquo;s boring and you&rsquo;ll end up awkward as hell, reading your own words. Instead, you should use small, comprehensive titles with a small, more analytical subtitle. And that&rsquo;s about it. Also, unordered lists are a great way to summarise your slide content and also, have a flow to use while you&rsquo;re presenting.</p>
+
+<p>So, how can you get started? You should definitely check out the following links</p>
+
+<ol>
+<li><a href="http://zachholman.com/talks">Zach Holman&rsquo;s presentations</a></li>
+<li><a href="http://www.slideshare.net/jessedee/you-suck-at-powerpoint">You suck at PowerPoint</a></li>
+<li><a href="https://speakerdeck.com/p/featured">Check other presentations</a></li>
+<li><a href="http://colourlovers.com/">Colour Lovers</a></li>
+<li><a href="http://dribbble.com">Dribbble</a></li>
+</ol>
+
+
+	</section>
+
+    </article>
+
+  
+    <article class="post">
+      
+	
+	<header class="post-header">
+		<span class="post-meta">24 Mar 2013</span>
+		<h2 class="post-title">
+			
+			<a href="/blog/2013/03/24/our-education-competent/">
+			
+				The Modern Education Paradigm</a>
+		</h2>
+	</header>
+	<section class="post-excerpt">
+		<h4>Education on the 21th century</h4>
+
+<p>I&rsquo;ve been always been an keen observer of human behaviour and while being a member of the academic community, is kind of inevitable not to identify some interesting facts about our educational system and how that&rsquo;s being formed about our own behaviours.</p>
+
+<p>First, I came to the following conclusion when I was in the second year of my studies and all I was hearing from freshmen students was how the professors didn&rsquo;t pay attention to them exclusively or care if they were clear enough for the students. Actually, what the freshmen wanted, was to get consumed knowledge without hassling to actually learn it. Somewhat like the fast-food drive-ins. Looking back to that attitude, it certainly reminds me how school works: the teacher <em>has to</em> teach you some stuff and consequentially, you have to absorb as much as you can, without having the option or a state of mind to question that information.</p>
+
+<h5>An education system specifically designed many, many years ago is merely competent today</h5>
+
+<p>And as <a href="http://www.youtube.com/watch?v=zDZFcDGpL4U">Sir Ken Robinson</a> correctly claims, that happened because this is a educational system designed specifically for the needs of Industrial Revolution. Most of the info we get today from schools and universities is seriously outdated and perhaps, flawed. Now, this educational system is quite resistive and narrow-minded. It has all kinds of mechanisms to ensure that the content of courses will be in the standards of the government - and that&rsquo;s about it. You can&rsquo;t go further than that.</p>
+
+<h4>An outdated education</h4>
+
+<p>The above educational system is based on the premise that your success in life depends directly with a graduate or master&rsquo;s degree. Thus, you have to obey to their guidelines. This doesn&rsquo;t fit me personally, I can&rsquo;t be easily be constrained, at least not without a cause that actually makes sense.</p>
+
+<p>On the other hand, even since I got to know the web, I found a great pleasure learning new things, not by reading old textbooks, but by cross-checking as many references I could possibly find. You can actually develop a theory of mind on your own, by reading and researching hundreds of sources. You don&rsquo;t have to be constrained to a single textbook anymore.</p>
+
+<h4>Be your own teacher</h4>
+
+<p>But unfortunately, that&rsquo;s something is not taught in school. Every now and then, some friend asks me about something and I pretty much enjoy sending him/her a link from <a href="http://lmgtfy.com/">Let me Google that for you</a>. It&rsquo;s hilarious! But seriously, Google can find you every piece of information with a few keystrokes; isn&rsquo;t that amazing? Instead of using only your own mind, you can use other&rsquo;s thoughts and outcomes to enrich your own knowledge.</p>
+
+<p>If your plan is to be a tech person, you&rsquo;re in more luck than everybody else. The web is always full of tech articles, tutorials and also, some fun ways on learning new things.</p>
+
+<h4>The future is here</h4>
+
+<p>The past few years, websites like Codecademy, CodeSchool, Coursera, Udacity have made the learning process so accessible that you can go to class drinking cocoa from your favourite mug in your pyjamas while relaxing in your bed listening your favourite jazz album.</p>
+
+<p>When I was starting to mess around with the web, almost 5 years ago, all that were only in science fictions articles. I had to learn the hard way, which eventually wasn&rsquo;t so bad, but it sure wasn&rsquo;t the most efficient way. Now they&rsquo;re here, you can create a free account and start hacking on stuff.</p>
+
+<p>Bottom line, while a degree is still irreplaceable for everyone&rsquo;s future, you can now get your life in your hands and actually do something. Learn new stuff, explore on your own and don&rsquo;t wait to learn mechanically. I&rsquo;m looking forward to see what the future educational systems will look like. Hope they will rock this world.</p>
+
+	</section>
+
+    </article>
+
+  
+    <article class="post">
+      
+	
+	<header class="post-header">
+		<span class="post-meta">20 Mar 2013</span>
+		<h2 class="post-title">
+			
+			<a href="/blog/2013/03/20/hardcore-forking-action/">
+			
+				Hardcore Forking Action</a>
+		</h2>
+	</header>
+	<section class="post-excerpt">
+		<h4>Sexism, tech conferences &amp; Twitter hatred</h4>
+
+<p>Few days ago, <a href="http://techcrunch.com/2013/03/21/a-dongle-joke-that-spiraled-way-out-of-control/">a bad situation</a> happened at PyCon. Reportedly, some developers were making some forking jokes and Adria Richards, a (ex) Sendgrid-employed developer evangelist was offended by these jokes. She talked about feminism and stuff like that.</p>
+
+<p>First of all, I don&rsquo;t understand how that sexual joke is specifically addressed in women. Last time I checked, sexual intercourse didn&rsquo;t require <em>exclusively</em> women to be a thing. So, I guess this  may be as insulting for a guy as it is for a girl. In my point of view, that&rsquo;s the whole point of feminism. We&rsquo;re equal. Otherwise, it&rsquo;s just favouritism.</p>
+
+<p>Ok, I get it. Tech industry is dominated by males. But that doesn&rsquo;t mean that we are more sexist than males in other industries. Personally, I have no problem accepting that a woman can kick my ass in any of my skills. And I know for sure that many women actually exactly that.</p>
+
+<p>But the main point I want to make is that it&rsquo;s just a mother-flipping joke. There&rsquo;s something more important than the urge to politically correct every single conference, TV show, work environment etc. It&rsquo;s called humour and knowing when to chillax and just enjoy yourself.</p>
+
+<p><img src="http://i.imgur.com/VWFCB.png" alt="Hardcore Forking action" /></p>
+
+<p>And as a matter of facts, the &ldquo;fork you&rdquo; joke is pretty common. Github made a bold move and implemented it in the user interface, when you&rsquo;re forking a repo.</p>
+
+<p>Why do we tend to overcomplicate things?</p>
+
+	</section>
+
+    </article>
+
+  
+    <article class="post">
+      
+	
+	<header class="post-header">
+		<span class="post-meta">16 Mar 2013</span>
+		<h2 class="post-title">
+			
+			<a href="/blog/2013/03/16/an-unusual-windows-laptop/">
+			
+				An Unusual Windows Laptop</a>
+		</h2>
+	</header>
+	<section class="post-excerpt">
+		<h4>A little bit of history</h4>
+
+<p>Almost a year ago, I was searching about my new laptop, which eventually <a href="http://dtsironis.net/posts/a-month-with-mac/">came to be Macbook Air 13"</a>. It was a long search for the perfect and it turned out very well. I loved my Macbook Air from the first touch; it&rsquo;s light, built like a tank with so much power underneath. It never lets me down.</p>
+
+<p><a href="http://www.flickr.com/photos/tsironakos/8562120770/"><img src="http://farm9.staticflickr.com/8236/8561014151_a836d13164_z.jpg" title="Dell XPS 13" alt="Dell XPS 13" /></a></p>
+
+<p>But one of the candidates was then a new-comer. I think it had just hit the news and I was actually starring at the beautiful product page for hours. It was a piece of beauty, probably the best looking laptop ever made. It&rsquo;s the Dell XPS 13.</p>
+
+<h4>Still one of the best</h4>
+
+<p>Several days ago, I was asked for my opinion on a laptop. Of course, I started searching the web for the best laptop out there, I found some interesting laptops, but then I remembered the one and only XPS 13. I had seen it before in the Greece JS meetup and I was staring at it lustfully, feeling a bit ashamed of my Macbook Air.</p>
+
+<h4>Unboxing</h4>
+
+<p>When I unboxed it I was amazed by the high quality standards of the new dell packaging. I thought it would be one of this ugly recycled-paper boxes that used to ship computers in. But it&rsquo;s a beautiful black box with a nice feel and inside it, there was a case. The only purpose of the case was to contain the laptop itself. I tell you, it was awesome to open the case and find the laptop lying there, like a treasure in a chest.</p>
+
+<p><a href="http://www.flickr.com/photos/tsironakos/8562120770/"><img src="http://farm9.staticflickr.com/8236/8561014151_a836d13164_z.jpg" title="Dell XPS 13" alt="Dell XPS 13 keyboard" /></a></p>
+
+<p>The laptop itself is very solid build quality and it has an awesome backlit chiclet keyboard.</p>
+
+<h4>Software</h4>
+
+<p>The only problem is that it shipped with Windows 7 which seems a little outdated to me, since Windows 8 is on the market for quite some time now. Also, I&rsquo;m allergic to the usual crapware that OEMs pack with their Windows installations. They&rsquo;re hideous, useless piece of software that insult the rest of software.</p>
+
+<p>All-in-all, if you want a great Linux or Windows laptop that looks astonishing and behaves like a proper machine, then I think Dell XPS 13 is a no-brainer for you.</p>
+
+	</section>
+
+    </article>
+
+  
+    <article class="post">
+      
+	
+	<header class="post-header">
+		<span class="post-meta">06 Nov 2012</span>
+		<h2 class="post-title">
+			
+			<a href="/blog/2012/11/06/a-month-with-mac/">
+			
+				A Month With Mac</a>
+		</h2>
+	</header>
+	<section class="post-excerpt">
+		<p>I was planning for a long time to make the switch from Windows-based PC to Mac. I love Apple laptops and computers, but in contrast with that, I kind of hate all its mobile devices (yes, including iPad mini!).</p>
+
+<p>The main reason behind this hatred is the iOS software, which is  starting to spread in the Mac OS X. But more of that later.</p>
+
+<p>So, I bought my Macbook Air almost a month ago and I&rsquo;ll never regret it. It&rsquo;s the best computer I&rsquo;ve ever had, although it has nearly the specs of my desktop, which runs on a 6-core CPU backed with 8gigs of RAM. The Macbook Air has a relatively slow and underpowered CPU, an Intel i5 Ivy Bridge but it&rsquo;s more than enough for any kind of work.</p>
+
+<p>On a typical day, I&rsquo;m running Photoshop, Firefox, Sublime Text 2 , Codekit and all the Mac programs plus my terminal and sometimes Illustrator. The laptop never slows me down and it&rsquo;s always cool to the touch.</p>
+
+<p>And also, it looks gorgeous!</p>
+
+<h4>Everytime you use leather in your UI, a puppy dies</h4>
+
+<p>But as I said before, there are some problems with the software.  Apple is currently left behind in this field. I&rsquo;m talking about UI and UX issues. Most apps feel a little weird and also, the skeuomorphism used in the UI design is horrible. Apple has to learn some great lessons on that from Microsoft. In my opinion, Windows 8 is the best thing happened for UX design since a long time. It&rsquo;s just feel nice and natural without pretending to be something it&rsquo;s not.</p>
+
+<p>All in all, I&rsquo;m in love with my new laptop and I would gladly recommend it. But just don&rsquo;t buy it for surfing the internet and watch kitten videos on Youtube. Buy a cheap laptop and install Ubuntu on it.</p>
+
+	</section>
+
+    </article>
+
+  
+    <article class="post">
+      
+	
+	<header class="post-header">
+		<span class="post-meta">02 Nov 2012</span>
+		<h2 class="post-title">
+			
+			<a href="/blog/2012/11/02/geembot-is-cool/">
+			
+				Geembot Is Cool!</a>
+		</h2>
+	</header>
+	<section class="post-excerpt">
+		<h4>How we deployed our own robot in da cloud</h4>
+
+<p>Few months ago, I started following <a href="http://zachholman.com/">@holman</a> on Github and Twitter. He&rsquo;s doing a great job on Github and on open-source projects and he&rsquo;s creating some very interesting video and screencasts.</p>
+
+<p>One of the videos was about Play, a music manager by Github and how they can play their music from the Campfire chat rooms using Hubot, which is a very cool little robot written in Node.js.</p>
+
+<p>At the time, I was thinking it would be cool to deploy my own Hubot but I didn&rsquo;t find any cause for doing such (except being a geek). So, when I started Geembo last month or so, I started thinking of using Hubot to have some fun but also, to automate some of our everyday tasks.</p>
+
+<p>So, Geembot was born today, after few hours of screwing around its source code. The initial plan was that it would be deployed on Heroku, but soon enough we found out that Heroku and Node.js or perhaps hubot don&rsquo;t match very well together.</p>
+
+<p>So, I fired up a fresh Ubuntu 12.04.1 LTS VM and deployed Geembot.</p>
+
+<p>I can tell you, it&rsquo;s not easy to deploy a hubot. But if you&rsquo;re an advanced system administrator, I think you would success soon enough.</p>
+
+<p>Geembot is very cool, fast and very extensible. The scripts already written for hubot are literally hundreds and we have to search what we gonna do with him.</p>
+
+	</section>
+
+    </article>
+
+
+<nav class="pagination" role="pagination">
+  
+    
+
+    
+
+    <a class="newer-posts" href="/2"> ← Newer Posts </a>
+  
+
+  <span class="page-number">
+    Page 3 of 4
+  </span>
+
+  
+    <a class="older-posts"
+        href="/4">
+      Older Posts →
+    </a>
+  
+</nav>
+
+
+  </main>
+  <footer class="site-footer"><a class="subscribe icon-feed" href="http:///atom.xml"><span class="tooltip">Subscribe!</span></a>
+
+
+<div class="inner">
+
+
+
+
+
+
+
+
+
+<section class="copyright">All content copyright <a href="/">Your Name</a> © 2015 • All rights reserved.</section>
+
+<section class="poweredby">Casper theme by <a class="icon-ghost" href="http://tryghost.org">Ghost</a> &amp; Published with <a href="http://octopress.org">Octopress</a></section>
+
+</div>
+</footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+
+
+
+
+
+
+</body>
+</html>
