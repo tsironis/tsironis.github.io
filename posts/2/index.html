@@ -8,9 +8,11 @@
   <title>My Octopress Blog</title>
   <meta name="author" content="Your Name">
 
+  <!-- Causes trouble with per-article font implementations under /source/_includes/article.html
   
-  <meta name="description" content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam &hellip;">
+  <meta name="description" content="Of Lorems and Ipsii Dec 23rd, 2014 2:04 am Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore &hellip;">
+  -->
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,23 +21,43 @@ tempor invidunt ut labore et dolore magna aliquyam erat, sed diam &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http:///posts/2/">
+  <link rel="canonical" href="http:///posts/2">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Poller+One" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Germania+One" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Lato&subset=latin-ext" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Cardo&subset=latin-ext" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=UnifrakturMaguntia&subset=all" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Arimo|EB+Garamond|PT+Sans+Caption&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
   
 
 </head>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<logo>
 
-<body   >
+<img src="/logo.png" alt="Website Logo. Upload to /source/logo.png ; disable in /source/_includes/logo.html" height="32px" width="32px">
+</logo>
+
+
+
+<body >
   <header role="banner"><hgroup>
   <h1><a href="/">My Octopress Blog</a></h1>
   
@@ -44,23 +66,23 @@ tempor invidunt ut labore et dolore magna aliquyam erat, sed diam &hellip;">
 </hgroup>
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="sitesearch" value="http://">
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
+  <nav role="navigation"><ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
 </ul>
 
+<br>
+
+      
+        <form action="https://www.google.com/search" method="get">
+          <fieldset role="search">
+            <input type="hidden" name="q" value="site:http://" />
+      
+      
+            <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+          </fieldset>
+        </form>
+  
 </nav>
   <div id="main">
     <div id="content">
@@ -72,7 +94,7 @@ tempor invidunt ut labore et dolore magna aliquyam erat, sed diam &hellip;">
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/12/23/of-lorems-and-ipsii-14/">Of Lorems and Ipsii</a></h1>
+      <h1 class="entry-title" style="font-family: "><a href="/blog/2014/12/23/of-lorems-and-ipsii-14/">Of Lorems and Ipsii</a></h1>
     
     
       <p class="meta">
@@ -83,12 +105,13 @@ tempor invidunt ut labore et dolore magna aliquyam erat, sed diam &hellip;">
 
 <time class='entry-date' datetime='2014-12-23T02:04:23+02:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>2:04 am</span></time>
         
+        
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+  <div class="entry-content" style="font-family: ; font-size: "><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> dolores et ea rebum. Stet clita kasd gubergren,
 no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -117,7 +140,7 @@ hello('World');   // prints 'Hello, World.' to stdout
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/12/23/of-lorems-and-ipsii-13/">Of Lorems and Ipsii</a></h1>
+      <h1 class="entry-title" style="font-family: "><a href="/blog/2014/12/23/of-lorems-and-ipsii-13/">Of Lorems and Ipsii</a></h1>
     
     
       <p class="meta">
@@ -128,12 +151,13 @@ hello('World');   // prints 'Hello, World.' to stdout
 
 <time class='entry-date' datetime='2014-12-23T02:04:23+02:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>2:04 am</span></time>
         
+        
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+  <div class="entry-content" style="font-family: ; font-size: "><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> dolores et ea rebum. Stet clita kasd gubergren,
 no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -162,7 +186,7 @@ hello('World');   // prints 'Hello, World.' to stdout
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/12/23/of-lorems-and-ipsii-12/">Of Lorems and Ipsii</a></h1>
+      <h1 class="entry-title" style="font-family: "><a href="/blog/2014/12/23/of-lorems-and-ipsii-12/">Of Lorems and Ipsii</a></h1>
     
     
       <p class="meta">
@@ -173,12 +197,13 @@ hello('World');   // prints 'Hello, World.' to stdout
 
 <time class='entry-date' datetime='2014-12-23T02:04:23+02:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>2:04 am</span></time>
         
+        
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+  <div class="entry-content" style="font-family: ; font-size: "><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> dolores et ea rebum. Stet clita kasd gubergren,
 no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -207,7 +232,7 @@ hello('World');   // prints 'Hello, World.' to stdout
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/12/23/of-lorems-and-ipsii-11/">Of Lorems and Ipsii</a></h1>
+      <h1 class="entry-title" style="font-family: "><a href="/blog/2014/12/23/of-lorems-and-ipsii-11/">Of Lorems and Ipsii</a></h1>
     
     
       <p class="meta">
@@ -218,12 +243,13 @@ hello('World');   // prints 'Hello, World.' to stdout
 
 <time class='entry-date' datetime='2014-12-23T02:04:23+02:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>2:04 am</span></time>
         
+        
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+  <div class="entry-content" style="font-family: ; font-size: "><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> dolores et ea rebum. Stet clita kasd gubergren,
 no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -252,7 +278,7 @@ hello('World');   // prints 'Hello, World.' to stdout
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/12/23/of-lorems-and-ipsii-10/">Of Lorems and Ipsii</a></h1>
+      <h1 class="entry-title" style="font-family: "><a href="/blog/2014/12/23/of-lorems-and-ipsii-10/">Of Lorems and Ipsii</a></h1>
     
     
       <p class="meta">
@@ -263,12 +289,13 @@ hello('World');   // prints 'Hello, World.' to stdout
 
 <time class='entry-date' datetime='2014-12-23T02:04:23+02:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>2:04 am</span></time>
         
+        
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+  <div class="entry-content" style="font-family: ; font-size: "><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> dolores et ea rebum. Stet clita kasd gubergren,
 no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -297,7 +324,7 @@ hello('World');   // prints 'Hello, World.' to stdout
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/12/23/of-lorems-and-ipsii-1/">Of Lorems and Ipsii</a></h1>
+      <h1 class="entry-title" style="font-family: "><a href="/blog/2014/12/23/of-lorems-and-ipsii-1/">Of Lorems and Ipsii</a></h1>
     
     
       <p class="meta">
@@ -308,12 +335,13 @@ hello('World');   // prints 'Hello, World.' to stdout
 
 <time class='entry-date' datetime='2014-12-23T02:04:23+02:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>2:04 am</span></time>
         
+        
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+  <div class="entry-content" style="font-family: ; font-size: "><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> dolores et ea rebum. Stet clita kasd gubergren,
 no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -342,7 +370,7 @@ hello('World');   // prints 'Hello, World.' to stdout
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/12/23/of-lorems-and-ipsii/">Of Lorems and Ipsii</a></h1>
+      <h1 class="entry-title" style="font-family: "><a href="/blog/2014/12/23/of-lorems-and-ipsii/">Of Lorems and Ipsii</a></h1>
     
     
       <p class="meta">
@@ -353,12 +381,13 @@ hello('World');   // prints 'Hello, World.' to stdout
 
 <time class='entry-date' datetime='2014-12-23T02:04:23+02:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>2:04 am</span></time>
         
+        
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+  <div class="entry-content" style="font-family: ; font-size: "><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> dolores et ea rebum. Stet clita kasd gubergren,
 no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -387,7 +416,7 @@ hello('World');   // prints 'Hello, World.' to stdout
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/01/19/lockr-released/">Lockr v0.5.0 Released</a></h1>
+      <h1 class="entry-title" style="font-family: "><a href="/blog/2014/01/19/lockr-released/">Lockr v0.5.0 Released</a></h1>
     
     
       <p class="meta">
@@ -398,12 +427,13 @@ hello('World');   // prints 'Hello, World.' to stdout
 
 <time class='entry-date' datetime='2014-01-19T00:00:00+02:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>19</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>12:00 am</span></time>
         
+        
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Few months ago, I have written a prototype of a library to use <code>localStorage</code> more efficiently. In the meantime, I totally forgot about it until I started writing the v2.0.0 of the <a href="https://github.com/bugsense/bugsense.js">BugSense JavaScript SDK</a>.</p>
+  <div class="entry-content" style="font-family: ; font-size: "><p>Few months ago, I have written a prototype of a library to use <code>localStorage</code> more efficiently. In the meantime, I totally forgot about it until I started writing the v2.0.0 of the <a href="https://github.com/bugsense/bugsense.js">BugSense JavaScript SDK</a>.</p>
 
 <p>So I started development for bugsense.js and I run into the same issues using the native <code>localStorage</code> API. I needed something modular, lightweight and with a very small bytesize.</p>
 
@@ -426,7 +456,7 @@ hello('World');   // prints 'Hello, World.' to stdout
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/11/24/awesomejs/">Enjoyable Javascript</a></h1>
+      <h1 class="entry-title" style="font-family: "><a href="/blog/2013/11/24/awesomejs/">Enjoyable Javascript</a></h1>
     
     
       <p class="meta">
@@ -437,12 +467,13 @@ hello('World');   // prints 'Hello, World.' to stdout
 
 <time class='entry-date' datetime='2013-11-24T00:00:00+02:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>24</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>12:00 am</span></time>
         
+        
       </p>
     
   </header>
 
 
-  <div class="entry-content"><h4>The first handshake</h4>
+  <div class="entry-content" style="font-family: ; font-size: "><h4>The first handshake</h4>
 
 <p>When I started learning the building elements of the Web, I had the impression that Javascript is that hefty, untamable
 beast that nobody really understands, a language so wicked that noone really
@@ -504,7 +535,7 @@ things</a>.</p>
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/11/16/kindle-paperwhite/">Is Kindle Paperwhite Really Worth It?</a></h1>
+      <h1 class="entry-title" style="font-family: "><a href="/blog/2013/11/16/kindle-paperwhite/">Is Kindle Paperwhite Really Worth It?</a></h1>
     
     
       <p class="meta">
@@ -515,12 +546,13 @@ things</a>.</p>
 
 <time class='entry-date' datetime='2013-11-16T00:00:00+02:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>12:00 am</span></time>
         
+        
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>I&rsquo;ve been using Kindles for almost two years. My first Kindle was a 4th generation Kindle (not the touch one). Since then, ebooks for me was just a thing from a science fiction articles, just like flying cars. It was technically plausible but couldn&rsquo;t see it replacing paper books anytime soon. News flash, I was wrong. So when the new Kindle Paperwhite came out a few months ago, I decided to upgrade my Kindle to a new Kindle Paperwhite. I did long the touchscreen which makes everything so much easier and I ordered it from Amazon.</p>
+  <div class="entry-content" style="font-family: ; font-size: "><p>I&rsquo;ve been using Kindles for almost two years. My first Kindle was a 4th generation Kindle (not the touch one). Since then, ebooks for me was just a thing from a science fiction articles, just like flying cars. It was technically plausible but couldn&rsquo;t see it replacing paper books anytime soon. News flash, I was wrong. So when the new Kindle Paperwhite came out a few months ago, I decided to upgrade my Kindle to a new Kindle Paperwhite. I did long the touchscreen which makes everything so much easier and I ordered it from Amazon.</p>
 
 <h4>First things first</h4>
 
@@ -574,47 +606,12 @@ things</a>.</p>
     
   </div>
 </div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/12/23/of-lorems-and-ipsii-9/">Of Lorems and Ipsii</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/12/23/of-lorems-and-ipsii-8/">Of Lorems and Ipsii</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/12/23/of-lorems-and-ipsii-7/">Of Lorems and Ipsii</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/12/23/of-lorems-and-ipsii-6/">Of Lorems and Ipsii</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/12/23/of-lorems-and-ipsii-5/">Of Lorems and Ipsii</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-  
-</aside>
 
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - Your Name -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  Website copyright &copy; 2015 - Your Name |
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/TheChymera/Koenigspress">Königspress</a></span>
 </p>
 
 </footer>

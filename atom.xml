@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http:///atom.xml" rel="self"/>
   <link href="http:///"/>
-  <updated>2015-07-26T17:11:23+03:00</updated>
+  <updated>2015-07-26T17:18:31+03:00</updated>
   <id>http:///</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -31,34 +31,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
 
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
@@ -79,34 +51,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 }
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
-
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
 ]]></content>
   </entry>
@@ -129,34 +73,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
 
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
@@ -177,34 +93,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 }
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
-
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
 ]]></content>
   </entry>
@@ -227,34 +115,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
 
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
@@ -275,34 +135,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 }
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
-
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
 ]]></content>
   </entry>
@@ -325,34 +157,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
 
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
@@ -373,34 +177,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 }
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
-
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
 ]]></content>
   </entry>
@@ -423,34 +199,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
 
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
@@ -471,34 +219,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 }
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
-
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
 ]]></content>
   </entry>
@@ -521,34 +241,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
 
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
@@ -569,34 +261,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 }
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
-
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
 ]]></content>
   </entry>
@@ -619,34 +283,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
 
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
@@ -667,34 +303,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 }
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
-
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
 ]]></content>
   </entry>
@@ -717,34 +325,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
 
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
@@ -766,34 +346,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
 
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
@@ -814,34 +366,6 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 }
 hello('World');   // prints 'Hello, World.' to stdout
 </code></pre>
-
-<!-- More -->
-
-
-<h2>Some more code</h2>
-
-<pre><code class="ruby">def test
-  @answer = 6*9
-  if @answer != 42  # this should never happen
-    raise "Oh no, not again."
-  else
-    print "Don't panic."
-end
-</code></pre>
-
-<h2>this is a sample header</h2>
-
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>The footnote <a href="http://www.example.com">content</a>.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
 
 ]]></content>
   </entry>
