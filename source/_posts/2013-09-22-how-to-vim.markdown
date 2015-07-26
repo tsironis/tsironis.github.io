@@ -9,11 +9,11 @@ A few months ago, I joined [BugSense](http://www.bugsense.com/) as a front-end e
 
 It was then that I decided to give it a try. Of course, I had already open vim in my terminal but avoided it in a regular basis. This time I was really psyched about it; I borrowed @alexkompotis's custom configuration and fired up my engines. But, I failed big time. The truth is that at this point I had a very beefed up Sublime Text configuration. I rushed my workflow change and I wasn't patient enough to laern Vim.
 
-##### The Vim philoshopy
+#### The Vim philoshopy
 
 Then I came across this awesome game, [Vim Adventures](http://vim-adventures.com/) that sets to teach you the Vim philosophy while having fun. It was a good experience but I did get bored after some days. I learned so much about Vim while playing and I was already "getting" the Vim way of thinking. After that, I read the classic book Practical Vim, which expanded my knowledge at how Vim is working. It turned out that all this time, I was forcing myself in the opposite direction than Vim dictates; Vim's normal mode is in fact a command mode (duh!) and the insert mode is, well, for inserting text. The self-evidence of the previous statement is actually the whole point of Vim philosophy.
 
-##### Take it easy, continue your work, learn in the process
+#### Take it easy, continue your work, learn in the process
 
 Then one day, I decided to make the switch to Vim. I have tried for a week or so the command mode of Sublime Text and I found it very limiting and unusable in general. I chose the [Janus build](https://github.com/carlhuda/janus) to get started with and read this [very helpful article](http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) which in a nutshell says "take it easy and you'll get there". Start with soft settings, enable mouse, enable arrow navigation and try a configuration that doesn't alienate you. Then gradually, learn new tricks and adopt your workflow over time.
 

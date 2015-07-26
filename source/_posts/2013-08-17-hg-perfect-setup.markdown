@@ -16,7 +16,7 @@ As of this writing, the <code>hg \-\-version</code> is 2.6. If you haven't updat
 please do since some the following extensions are available only in
 newer versions of Mercurial.
 
-#### Rebase
+### Rebase
 I think the feature of git that I really missed is
 rebase. Mercurial's rebase is not as hardcore as Git's rebase but it
 does the work done. You can enable it in your <code>~/.hgrc</code> file.
@@ -35,7 +35,7 @@ This is very useful in my case because it solves
 Mercurial's serious flaw (in my opinion) with continuous merges, that
 litter repo's history with useless merge commits.
 
-#### hg-prompt
+### hg-prompt
 This is an awesome extension by [Steve Losh](http://stevelosh.com/), that allows
 you to display all the useful info about the Mercurial current repo in your
 terminal.
@@ -43,7 +43,7 @@ terminal.
 Steve has an [excellent documentation](http://sjl.bitbucket.org/hg-prompt/) about installing and getting started with this extension but also, has written a blog [about his
 zsh setup](http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/#mercurial-repository-information), including several details about <code>hg-prompt</code> .
 
-#### graphlog
+### graphlog
 Graphlog is a built-in extension for Mercurial, which is the equivalent of
 <code>git log \-\-graph</code> and it ***formats the output as a graph representing the revision history using ASCII characters to the left of the log***, quoting extension's description.
 
@@ -67,7 +67,7 @@ nothing fancy at all. It still accepts all the options of glog.
 lg = glog
 ```
 
-#### hg blame
+### hg blame
 One other Git command that Mercurial really needs is the <code>git
 blame</code>. This one isn't exactly what you might think, it's just for
 finding in which commit or changeset a line was added or last modified.
@@ -96,7 +96,7 @@ power tool in your hands!
 $ hg blame <path-to-file> | grep "some words"
 ``` 
 
-#### pager
+### pager
 Very nice and handy plugin to add <code>less</code>-like functionality for commands that have huge outputs, eg. log, diff etc.
 
 It's easy to setup and already included with Mercurial.
@@ -106,7 +106,7 @@ pager = LESS='FSRX' less
 attend = cat, diff, glog, log, incoming, outgoing, lg, show, lg
 ```
 
-#### The end
+### The end
 I will come back with a second part, covering the rest of the plugins I'm using.
 
 Head over to [Hacker News](https://news.ycombinator.com/item?id=6319979) for the discussion

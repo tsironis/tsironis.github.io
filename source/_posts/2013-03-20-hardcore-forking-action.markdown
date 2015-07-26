@@ -3,7 +3,7 @@ layout: post
 title: Hardcore forking action
 ---
 
-#### Sexism, tech conferences & Twitter hatred
+### Sexism, tech conferences & Twitter hatred
 
 Few days ago, [a bad situation](http://techcrunch.com/2013/03/21/a-dongle-joke-that-spiraled-way-out-of-control/) happened at PyCon. Reportedly, some developers were making some forking jokes and Adria Richards, a (ex) Sendgrid-employed developer evangelist was offended by these jokes. She talked about feminism and stuff like that.
 
