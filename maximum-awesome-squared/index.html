@@ -109,17 +109,17 @@
   </header>
 
 
-<div class="entry-content" style="font-family: ; font-size: "><h4>In the quest for the perfect conf</h4>
+<div class="entry-content" style="font-family: ; font-size: "><h3>In the quest for the perfect conf</h3>
 
 <p>In my previous post, I wrote about my experience <a href="/posts/how-to-vim/">switching to Vim</a>. After getting familiar with using Vim, I started to search on ways to improve my workflow. At the time, I was using Janus build and I have to say, I didn&rsquo;t enjoy it too much. So I had two choices; the first was to start off and build my own Vim configuration from the ground up and the second was to find a &ldquo;pret-a-porter&rdquo; solution. I chose the latter and head to Github to start the quest of finding the perfect Vim configuration. I had already excluded Janus because way too complicated to mess around with and it&rsquo;s pretty heavy as well. Then, I remembered about <a href="https://github.com/fatih/subvim/">Subvim</a> which is a great effort to emulate Sublime Text 2 in a Vim environment. That didn&rsquo;t suit me as well, found it to be heavy and just not my taste.</p>
 
-<h4>The Holy Grail</h4>
+<h3>The Holy Grail</h3>
 
 <p>And then I remembered about <a href="https://github.com/square/maximum-awesome">maximum awesome</a>, made with love by Square and decided to install it right away to test it out. And boy, it is good! First of all, the installation process is simple, painless and quick. I fired up my MacVim and tried it out. My first impression was that it felt agile, looked beautiful but lacked some functionality that I&rsquo;ve been used from my previous configurations.</p>
 
 <p>Almost right away, I decided to fork it and made my changes available for all and also, have them backed up in Github (just in case).</p>
 
-<h4>A minimal Vim configuration</h4>
+<h3>A minimal Vim configuration</h3>
 
 <p>And that&rsquo;s how <a href="https://github.com/tsironis/maximum-awesome-squared">(maximum-awesome)<sup>2</sup></a> was born, humbly named after his great ancestor!</p>
 
@@ -127,33 +127,33 @@
 
 <p><img src="http://i.imgur.com/GUUm9q0.gif" alt="Maximum Awesome Squared animation" /></p>
 
-<h4>Ubuntu support?</h4>
+<h3>Ubuntu support?</h3>
 
 <p>Ok, maximum awesome is built for Mac OS X, but I didn&rsquo;t see any valid reasons why it couldn&rsquo;t play on Ubuntu as well. And also, I really, really needed my config in my Ubuntu desktop as well. So, I made the decision to hack the original Rakefile in order to made it work nicely with Ubuntu. Although I&rsquo;m not that happy with the quality of the new version, I made it work. Maybe some time in the future I&rsquo;ll do some optimisation.</p>
 
-<h4>Customize it!</h4>
+<h3>Customize it!</h3>
 
 <p>The great advantage with the maximum-awesome is that you can easily hack it, change it, make it unique. I was familiar with the code in about thirty minutes or so. If you want to change the plugins, just edit the <code>.gitmodules</code> file and run <code>rake</code>. Make your personal changes (changes that will only be interesting to you, that is) in the <code>vimrc.local</code> file. The script will download the new plugins and everything else should be taken care of by Pathogen.</p>
 
-<h4>Future plans</h4>
+<h3>Future plans</h3>
 
-<h5>Full Ubuntu/Debian support</h5>
+<h4>Full Ubuntu/Debian support</h4>
 
 <p>There are some things that are very sloppy about the rakefile, I plan on making some optimizations and also, finding a way to offer greater support for Ubuntu/Debian systems but also, other Linux distros as well.</p>
 
-<h5>Better installation experience in both platforms</h5>
+<h4>Better installation experience in both platforms</h4>
 
 <p>Currently, the implementation of the installation plugin is not that elegant and I want to encourage the customization and make it as easy and seamless as possible.</p>
 
-<h5>Better handling of Git submodules (plugins)</h5>
+<h4>Better handling of Git submodules (plugins)</h4>
 
 <p>The downloaded plugins in the <code>vim/bundle</code> folder shouldn&rsquo;t be added in the repo, instead they should be just local copies and everything should be handled through the <code>.gitmodules</code> file. I plan on improving that.</p>
 
-<h5>Improve Vim performance</h5>
+<h4>Improve Vim performance</h4>
 
 <p>Sometimes, MacVim and Vim feels heavy, especially after some hours of usage. I plan on making make it faster and less heavyweight (or at least, investigate why)</p>
 
-<h4>Conclusion</h4>
+<h3>Conclusion</h3>
 
 <p><a href="https://github.com/tsironis/maximum-awesome-squared">(maximum-awesome)<sup>2</sup></a> is just my take on the original project. If you like it, fork it and let&rsquo;s make it better!</p>
 
