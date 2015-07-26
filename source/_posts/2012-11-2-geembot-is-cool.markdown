@@ -3,7 +3,7 @@ layout: post
 title: Geembot is cool!
 ---
 
-## How we deployed our own robot in da cloud
+#### How we deployed our own robot in da cloud
 
 Few months ago, I started following [@holman](http://zachholman.com/) on Github and Twitter. He's doing a great job on Github and on open-source projects and he's creating some very interesting video and screencasts.
 

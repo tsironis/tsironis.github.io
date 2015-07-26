@@ -3,7 +3,7 @@ layout: post
 title: About this weblog
 ---
 
-## The quick (but mandatory intro)
+#### The quick (but mandatory intro)
 
 Hello world! This is the first blog post on this super-hipster blog.
 

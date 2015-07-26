@@ -12,7 +12,7 @@ On a typical day, I'm running Photoshop, Firefox, Sublime Text 2 , Codekit and a
 
 And also, it looks gorgeous!
 
-## Everytime you use leather in your UI, a puppy dies
+#### Everytime you use leather in your UI, a puppy dies
 
 But as I said before, there are some problems with the software.  Apple is currently left behind in this field. I'm talking about UI and UX issues. Most apps feel a little weird and also, the skeuomorphism used in the UI design is horrible. Apple has to learn some great lessons on that from Microsoft. In my opinion, Windows 8 is the best thing happened for UX design since a long time. It's just feel nice and natural without pretending to be something it's not.
 
