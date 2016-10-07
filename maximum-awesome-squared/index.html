@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>(Maximum-awesome)^2 - Dimitris Tsironis</title>
+  <meta name="author" content="Dimitris Tsironis">
+
+  <!-- Causes trouble with per-article font implementations under /source/_includes/article.html
+  
+  <meta name="description" content="(Maximum-awesome)^2 Sep 28th, 2013 12:00 am In the quest for the perfect conf In my previous post, I wrote about my experience switching to Vim. &hellip;">
+  -->
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://dtsironis.net/maximum-awesome-squared">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Dimitris Tsironis" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Poller+One" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Germania+One" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Lato&subset=latin-ext" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Cardo&subset=latin-ext" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=UnifrakturMaguntia&subset=all" rel="stylesheet" type="text/css">
+<link href='//fonts.googleapis.com/css?family=Arimo|EB+Garamond|PT+Sans+Caption&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+  
+
+</head>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<logo>
+
+<img src="/logo.png" alt="Website Logo. Upload to /source/logo.png ; disable in /source/_includes/logo.html" height="32px" width="32px">
+</logo>
+
+
+
+<body >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Dimitris Tsironis</a></h1>
+  
+    <h2>Writing about world and technical stuff</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+<br>
+
+      
+        <form action="https://www.google.com/search" method="get">
+          <fieldset role="search">
+            <input type="hidden" name="q" value="site:dtsironis.net" />
+      
+      
+            <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+          </fieldset>
+        </form>
+  
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title" style="font-family: ">(Maximum-awesome)^2</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2013-09-28T00:00:00+03:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>28</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>12:00 am</span></time>
+        
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content" style="font-family: ; font-size: "><h3>In the quest for the perfect conf</h3>
+
+<p>In my previous post, I wrote about my experience <a href="/posts/how-to-vim/">switching to Vim</a>. After getting familiar with using Vim, I started to search on ways to improve my workflow. At the time, I was using Janus build and I have to say, I didn&rsquo;t enjoy it too much. So I had two choices; the first was to start off and build my own Vim configuration from the ground up and the second was to find a &ldquo;pret-a-porter&rdquo; solution. I chose the latter and head to Github to start the quest of finding the perfect Vim configuration. I had already excluded Janus because way too complicated to mess around with and it&rsquo;s pretty heavy as well. Then, I remembered about <a href="https://github.com/fatih/subvim/">Subvim</a> which is a great effort to emulate Sublime Text 2 in a Vim environment. That didn&rsquo;t suit me as well, found it to be heavy and just not my taste.</p>
+
+<h3>The Holy Grail</h3>
+
+<p>And then I remembered about <a href="https://github.com/square/maximum-awesome">maximum awesome</a>, made with love by Square and decided to install it right away to test it out. And boy, it is good! First of all, the installation process is simple, painless and quick. I fired up my MacVim and tried it out. My first impression was that it felt agile, looked beautiful but lacked some functionality that I&rsquo;ve been used from my previous configurations.</p>
+
+<p>Almost right away, I decided to fork it and made my changes available for all and also, have them backed up in Github (just in case).</p>
+
+<h3>A minimal Vim configuration</h3>
+
+<p>And that&rsquo;s how <a href="https://github.com/tsironis/maximum-awesome-squared">(maximum-awesome)<sup>2</sup></a> was born, humbly named after his great ancestor!</p>
+
+<p>Right away, I had some issues with the status line, so initially I went with Powerline and minibufexplorer, but after a while I switched to the vim-airline which does both things (and which I love). Also, around that time I started using Jellybeans colorscheme. Made some other changes in the vimrc and I was pretty happy with my setup.</p>
+
+<p><img src="http://i.imgur.com/GUUm9q0.gif" alt="Maximum Awesome Squared animation" /></p>
+
+<h3>Ubuntu support?</h3>
+
+<p>Ok, maximum awesome is built for Mac OS X, but I didn&rsquo;t see any valid reasons why it couldn&rsquo;t play on Ubuntu as well. And also, I really, really needed my config in my Ubuntu desktop as well. So, I made the decision to hack the original Rakefile in order to made it work nicely with Ubuntu. Although I&rsquo;m not that happy with the quality of the new version, I made it work. Maybe some time in the future I&rsquo;ll do some optimisation.</p>
+
+<h3>Customize it!</h3>
+
+<p>The great advantage with the maximum-awesome is that you can easily hack it, change it, make it unique. I was familiar with the code in about thirty minutes or so. If you want to change the plugins, just edit the <code>.gitmodules</code> file and run <code>rake</code>. Make your personal changes (changes that will only be interesting to you, that is) in the <code>vimrc.local</code> file. The script will download the new plugins and everything else should be taken care of by Pathogen.</p>
+
+<h3>Future plans</h3>
+
+<h4>Full Ubuntu/Debian support</h4>
+
+<p>There are some things that are very sloppy about the rakefile, I plan on making some optimizations and also, finding a way to offer greater support for Ubuntu/Debian systems but also, other Linux distros as well.</p>
+
+<h4>Better installation experience in both platforms</h4>
+
+<p>Currently, the implementation of the installation plugin is not that elegant and I want to encourage the customization and make it as easy and seamless as possible.</p>
+
+<h4>Better handling of Git submodules (plugins)</h4>
+
+<p>The downloaded plugins in the <code>vim/bundle</code> folder shouldn&rsquo;t be added in the repo, instead they should be just local copies and everything should be handled through the <code>.gitmodules</code> file. I plan on improving that.</p>
+
+<h4>Improve Vim performance</h4>
+
+<p>Sometimes, MacVim and Vim feels heavy, especially after some hours of usage. I plan on making make it faster and less heavyweight (or at least, investigate why)</p>
+
+<h3>Conclusion</h3>
+
+<p><a href="https://github.com/tsironis/maximum-awesome-squared">(maximum-awesome)<sup>2</sup></a> is just my take on the original project. If you like it, fork it and let&rsquo;s make it better!</p>
+
+<p><a href="https://news.ycombinator.com/item?id=6462427">Join the discussion on HackerNews</a></p>
+</div>
+
+
+  <footer class="page-footer">
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Text authored by <span class="fn">Dimitris Tsironis</span></span>
+
+
+      
+
+
+
+
+<time class='entry-date' datetime='2013-09-28T00:00:00+03:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>28</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>12:00 am</span></time>
+      
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dtsironis.net/maximum-awesome-squared/" data-via="tsironakos" data-counturl="http://dtsironis.net/maximum-awesome-squared/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/how-to-vim/" title="Previous Post: Vim: from n00b to meh">&laquo; Vim: from n00b to meh</a>
+      
+      
+        <a class="basic-alignment right" href="/kindle-paperwhite/" title="Next Post: Is Kindle Paperwhite really worth it?">Is Kindle Paperwhite really worth it? &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Website copyright &copy; 2016 - Dimitris Tsironis |
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/TheChymera/Koenigspress">Königspress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
