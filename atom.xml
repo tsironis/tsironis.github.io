@@ -4,7 +4,7 @@
   <title><![CDATA[Dimitris Tsironis]]></title>
   <link href="http://dtsironis.net/atom.xml" rel="self"/>
   <link href="http://dtsironis.net/"/>
-  <updated>2016-10-07T11:34:53+03:00</updated>
+  <updated>2016-10-07T12:40:58+03:00</updated>
   <id>http://dtsironis.net/</id>
   <author>
     <name><![CDATA[Dimitris Tsironis]]></name>
@@ -156,7 +156,7 @@ things</a>.</p>
 
 <p>Right away, I had some issues with the status line, so initially I went with Powerline and minibufexplorer, but after a while I switched to the vim-airline which does both things (and which I love). Also, around that time I started using Jellybeans colorscheme. Made some other changes in the vimrc and I was pretty happy with my setup.</p>
 
-<p><img src="http://i.imgur.com/GUUm9q0.gif" alt="Maximum Awesome Squared animation" /></p>
+<p><img src="https://i.imgur.com/GUUm9q0.gif" alt="Maximum Awesome Squared animation" /></p>
 
 <h3>Ubuntu support?</h3>
 
@@ -513,7 +513,7 @@ power tool in your hands!</p>
 
 <p>But the main point I want to make is that it&rsquo;s just a mother-flipping joke. There&rsquo;s something more important than the urge to politically correct every single conference, TV show, work environment etc. It&rsquo;s called humour and knowing when to chillax and just enjoy yourself.</p>
 
-<p><img src="http://i.imgur.com/VWFCB.png" alt="Hardcore Forking action" /></p>
+<p><img src="https://i.imgur.com/VWFCB.png" alt="Hardcore Forking action" /></p>
 
 <p>And as a matter of facts, the &ldquo;fork you&rdquo; joke is pretty common. Github made a bold move and implemented it in the user interface, when you&rsquo;re forking a repo.</p>
 
